@@ -1,0 +1,1698 @@
+[
+  {
+    "prompt": "write a story",
+    "task": "bedtime story for an 8-year-old about sharing",
+    "family": "creative",
+    "baseline_score": 3.0,
+    "praas_score": 4.17,
+    "gain": 1.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "The Old Watchmaker's Secret\n\nIn the quaint town of Willowdale, nestled between rolling hills and dense forests, stood an old watchmaker's shop. The sign above the door creaked in the gentle breeze, bearing the words \"Harrison's Timepieces\" in elegant script. For generations, Harrison had crafted timepieces that told not only the hours but also the stories of those who wore them.\n\nEmily, a curious and adventurous young girl, lived just across the street from the shop. She spent most of her days exploring the town, chatting with its residents, and listening to their tales. One day, while wandering through the streets, Emily stumbled upon an old watchmaker's apprentice, no more than ten years old, sitting on a bench outside Harrison's shop.\n\nThe boy looked lost in thought, staring at a small, intricately carved wooden box in his hands. As Emily approached him, he looked up and introduced himself as Finnley, the current apprentice of Mr. Harrison. Emily was fascinated by the box and asked Finnley what it was for. He hesitated before revealing that it was a special gift from Mr. Harrison to someone very special.\n\nIntrigued, Emily begged Finnley to tell her more about the box and its contents. As they sat on the bench together, Finnley began to recount the story of how he had discovered the box hidden away in Harrison's workshop. According to Finnley, the box was said to contain a timepiece that could",
+    "baseline_judge_score": 3.0,
+    "baseline_judge_rubric": {
+      "completion": 2.0,
+      "compliance": 4.0,
+      "structure": 3.0
+    },
+    "baseline_judge_raw": {
+      "completion": 2,
+      "compliance": 4,
+      "structure": 3
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specificity in terms of task requirements and output format.",
+    "analyzer_missing": [
+      "audience",
+      "task_specificity",
+      "input_format",
+      "output_format",
+      "length_constraint",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about the story's content, such as the main character(s), plot, setting, and tone (e.g., \"bedtime story for an 8-year-old about sharing between siblings\")\n• Specify the desired output format, such as a short paragraph or a few sentences\n• Include any additional constraints or requirements, like word count or emotional tone",
+    "optimised_prompt": "\"Write a bedtime story for an 8-year-old about sharing between siblings, told in a heartwarming and relatable narrative within a 250-word limit.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n< ClaudePrompt >\n  <Task>\n    Write a bedtime story for an 8-year-old about sharing between siblings\n  </Task>\n  <Constraints>\n    <Characteristics>\n      <Tone>heartwarming and relatable</Tone>\n      <Length>250 words</Length>\n    </Characteristics>\n    <Style>\n      <Narrative>\n        <Format>story</Format>\n      </Narrative>\n    </Style>\n  </Constraints>\n</ClaudePrompt>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Bedtime Story: Sharing Between Siblings\n### Task: Write a bedtime story for an 8-year-old about sharing between siblings.\n\n#### Requirements:\n* Heartwarming and relatable narrative\n* Within a 250-word limit\n\nWrite a bedtime story that teaches the importance of sharing between siblings. The story should be engaging, easy to understand, and suitable for an 8-year-old audience."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Write a bedtime story for an 8-year-old about sharing between siblings.\n\n2. The story should be heartwarming and relatable within a 250-word limit.\n\n3. Include the following elements in the narrative:\n   - A scenario where siblings struggle with sharing\n   - A turning point or moment of realization that leads to improved sharing\n   - A positive outcome or resolution\n\n4. Ensure the tone is suitable for an 8-year-old audience."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "Here is a bedtime story for an 8-year-old about sharing between siblings:\n\n---\n\n\"The Magical Toy Box of Sharing\"\n\nOnce upon a time, in a cozy little house on a quiet street, lived two siblings named Timmy and Emma. They were as different as night and day, but they shared one thing in common: their love for adventure.\n\nOne sunny afternoon, while exploring the attic of their home, they stumbled upon an old trunk with a mysterious lock. As soon as Timmy picked up the key that came with it, the trunk creaked open, revealing a treasure trove of toys and games.\n\nBut to their surprise, there was no room for both of them in the toy box! Emma wanted to play with the colorful dolls, while Timmy yearned to build with the blocks. They both reached for the same toy car, and a fight broke out.\n\nJust then, their wise grandma appeared from downstairs and said, \"What's all the commotion about?\" Timmy and Emma explained how they couldn't share the toys. Grandma smiled and said, \"Sharing is like spreading love and kindness. When we share with others, it makes everyone happy!\"\n\nTimmy and Emma looked at each other, and for the first time, they saw sharing in a new light. They decided to take turns playing with each toy, one after another. As they did, the magical toy box began to glow, filling their hearts with joy and understanding.\n\nFrom that day on, Timmy and Emma became the best of friends when it came to sharing. They learned that by being kind and generous, they could make their relationship even stronger. And whenever they looked at the magical toy box, they remembered Grandma's wise words: \"Sharing is like spreading love and kindness.\"\n\n---\n\nWord count: 249",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "Once upon a time, in a cozy little house on a quiet street, lived two siblings named Emma and Max. They were always getting into mischief together, but one thing they couldn't agree on was sharing their toys.\n\nOne day, Emma had just received the most amazing dollhouse for her birthday, and she was so proud of it. She kept it all to herself, refusing to let Max play with it. Max was devastated, feeling left out and sad.\n\nBut then something unexpected happened. Emma's little brother, Jack, who was only 4 years old at the time, came into the room where Emma's dollhouse was sitting. He looked up at Emma with big, round eyes and asked if he could play with it too. Emma was taken aback - she hadn't thought about how her little brother felt.\n\nFeeling a pang of guilt, Emma decided to share her beloved dollhouse with Jack. Max watched in amazement as his sister and brother played together happily, laughing and having the best time ever.\n\nFrom that day on, Emma learned that sharing wasn't just about giving up something she wanted, but also about making someone else happy. And Max realized that when they shared, everyone had more fun! The three siblings learned a valuable lesson that night: sharing is caring, and it's always better to share than to keep all to yourself.",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Once upon a time, there were two siblings, Emma and Max. They loved playing together, but sometimes they had trouble sharing their toys.\n\nOne day, Emma had a favorite doll named Lily, and Max really wanted to play with her. But when he asked Emma if he could hold Lily, she said no. \"Lily is mine,\" she said. Max felt sad and walked away.\n\nEmma didn't mean to hurt Max's feelings, but she was too proud of Lily to share her. Max was heartbroken and didn't want to play with his own toys anymore.\n\nBut then something changed. Emma saw Max sitting alone in the room, looking sad. She went over to him and said, \"Hey, I'm sorry I didn't let you hold Lily. Can I show you a special secret about her?\"\n\nMax's face lit up, and he listened as Emma told him all about Lily's adventures. As they played together, Max realized that sharing wasn't about giving up something you love, but about making someone else happy too.\n\nFrom that day on, Emma and Max shared their toys and took turns playing with them. They learned that when they shared, everyone had more fun! And Lily became a special friend to both of them, loved by both siblings equally.",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gpt",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "write a poem",
+    "task": "four-line poem about rain for a birthday card",
+    "family": "creative",
+    "baseline_score": 3.0,
+    "praas_score": 4.17,
+    "gain": 1.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "\"Moonlit Dreams\"\n\nThe night is dark, the stars are bright\nA silver glow, a gentle light\nThe moon, a crescent in the sky\nLulls me to sleep, with a whispered sigh\n\nMy dreams are filled, with visions sweet\nOf distant lands, and memories to keep\nThe world is hushed, in a peaceful sleep\nAs I drift off, my heart does keep\n\nThe rhythm of the night's soft breeze\nEchoes through, my soul's release\nA symphony, of whispers low\nThat only dreams, can know\n\nIn this quiet hour, I find my peace\nA sense of calm, that the world can't cease\nMy heart is still, my mind is free\nAs I surrender, to serenity\n\nThe moon's pale light, shines down on me\nGuiding me through, the darkness of sea\nAnd in its glow, I find my way\nTo a place where love and dreams stay.",
+    "baseline_judge_score": 3.0,
+    "baseline_judge_rubric": {
+      "completion": 4.0,
+      "compliance": 2.0,
+      "structure": 3.0
+    },
+    "baseline_judge_raw": {
+      "completion": 4,
+      "compliance": 2,
+      "structure": 3
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specificity regarding the tone and style of the poem.",
+    "analyzer_missing": [
+      "audience",
+      "input_format",
+      "output_format",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific tone or style guidelines (e.g. \"humorous\", \"heartfelt\", \"nostalgic\")\n• Specify the desired length of the poem (e.g. 4 lines, but also consider other options like 2 or 6 lines)\n• Provide more context about the birthday card (e.g. \"for a child's birthday\" or \"for an adult's milestone\")",
+    "optimised_prompt": "Write a humorous, four-line poem for a child's birthday card about rain on their special day.",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<task>\n  <description>Write a humorous, four-line poem for a child's birthday card about rain on their special day.</description>\n</task>\n\n<constraints>\n  <characteristics>\n    <format type=\"poem\">\n      <length min=\"4\" max=\"4\"/>\n      <tone humorous/>\n    </format>\n  </characteristics>\n  <subject>\n    <theme>rain</theme>\n    <context>child's birthday card</context>\n  </subject>\n</constraints>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Write a Humorous Poem for a Child's Birthday Card\n## Task: Create a four-line poem about rain on a child's special day.\n\nWrite a humorous, four-line poem for a child's birthday card about rain on their special day."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Write a humorous, four-line poem for a child's birthday card about rain on their special day.\n\n2. The poem should be suitable for children and aim to bring a smile to their face.\n\n3. Include the following elements in the poem:\n   - A mention of rain\n   - A reference to the child's birthday celebration\n\n4. Use rhyming words or phrases to create a playful tone.\n\n5. Keep the poem concise, with exactly four lines as requested."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "On your special day, oh what a sight,\nRain comes pouring down with all its might.\nDon't worry, cake will still be sweet,\nAnd rainbows will follow at your feet!",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "On your special day, oh what a sight,\nRain came down and ruined the party tonight!\nBut don't worry, it won't last all year,\nYou'll have another chance to dance and cheer!",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Here is a humorous poem for a child's birthday card:\n\nRainy days are made for fun,\nOn your special day, it's just begun!\nWe'll dance in puddles, laugh and play,\nHappy birthday, come what may!",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gemini",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "write me a song",
+    "task": "silly 30-second song for a toddler about brushing teeth",
+    "family": "creative",
+    "baseline_score": 0.0,
+    "praas_score": 4.17,
+    "gain": 4.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "Here's a song I came up with:\n\n**Title:** \"Lost in the Moment\"\n\n**Verse 1:**\nI've been searching for a place to call home\nA place where I can be myself, and never feel alone\nI've been chasing shadows, trying to find my way\nBut every step I take, just leads me further astray\n\n**Chorus:**\nBut then I see your face, and everything changes\nLike the world has come alive, and my heart is rearranged\nIn this moment, I am free\nLost in the moment, that's where I'm meant to be\n\n**Verse 2:**\nI've been trying to find my place in the world\nA sense of purpose, a reason to unfurl\nBut like a leaf on a tree, I've been blown away\nBy the winds of chance, and the currents of the day\n\n**Chorus:**\nBut then I see your face, and everything changes\nLike the world has come alive, and my heart is rearranged\nIn this moment, I am free\nLost in the moment, that's where I'm meant to be\n\n**Bridge:**\nWe'll dance under the stars, with our feet on the ground\nWe'll laugh, we'll love, we'll live, without a single sound\nOur hearts beating as one, like two drums in the night\nIn this moment, everything feels just right\n\n**Chorus:**\n'Cause then I see",
+    "baseline_judge_score": 0.0,
+    "baseline_judge_rubric": {
+      "completion": 0.0,
+      "compliance": 0.0,
+      "structure": 0.0
+    },
+    "baseline_judge_raw": {
+      "completion": 0,
+      "compliance": 0,
+      "structure": 0
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specific details about input format and tone constraints.",
+    "analyzer_missing": [
+      "audience",
+      "input_format",
+      "output_format",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about input format (e.g. \"write a 30-second song in verse-chorus structure\")\n• Specify tone constraints (e.g. \"use nursery rhyme style and include simple lyrics\")",
+    "optimised_prompt": "\"Write a silly, 30-second song in verse-chorus structure about brushing teeth, using a nursery rhyme style and including simple lyrics.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<prompt>\n  <task>Write a silly, 30-second song in verse-chorus structure about brushing teeth</task>\n  <constraints>\n    <format>nursery rhyme style</format>\n    <length>30 seconds</length>\n  </constraints>\n</prompt>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Task: Write a Silly Song\n## Style: Nursery Rhyme\n## Structure: Verse-Chorus\n## Duration: 30 seconds\n\nWrite a silly, 30-second song in verse-chorus structure about brushing teeth, using a nursery rhyme style and including simple lyrics."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Write a silly, 30-second song in verse-chorus structure about brushing teeth.\n2. Use a nursery rhyme style for the lyrics.\n3. Include simple lyrics that fit within a 30-second time frame.\n\nAdapted Prompt:\n1. Write a silly, 30-second song in verse-chorus structure about brushing teeth.\n2. Use a nursery rhyme style for the lyrics.\n3. Include simple lyrics that fit within a 30-second time frame."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "Here's a silly nursery rhyme-style song about brushing teeth:\n\nVerse 1:\nBrush, brush, shine so bright\nClean those teeth with all your might\nUp and down, side to side\nMake those cavities hide\n\nChorus:\nBrushing teeth is fun to do\nMakes your smile shine right through\nFront and back, round and round\nKeep those teeth clean all around!\n\nVerse 2:\nFlossy floss and toothpaste too\nMake a perfect brushing crew\nScrub those molars with glee\nHealthy teeth for you and me\n\nChorus:\nBrushing teeth is fun to do\nMakes your smile shine right through\nFront and back, round and round\nKeep those teeth clean all around!\n\nNote: I've kept the song within the 30-second limit by using simple language and a repetitive structure. The chorus is catchy and easy to remember, making it perfect for a nursery rhyme-style song.\n\nIf you'd like me to add any changes or modifications, feel free to let me know!",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "Here's a silly song about brushing teeth, written in a nursery rhyme style:\n\n**Verse 1 (5 seconds)**\nBrush, brush, brush your teeth so bright\nIn the morning and at night\nGrab your toothbrush, it's time to play\nAnd keep those cavities away!\n\n**Chorus (10 seconds)**\nBrushing my teeth is fun to do\nI'm keeping them clean and shiny too\nFront and back, round and round\nMy smile will sparkle all around!\n\n**Verse 2 (5 seconds)**\nUp and down, side to side\nMake some bubbles, let them glide\nClean and fresh, that's what I'll be\nWith a healthy smile, happy as can be!\n\n**Chorus (10 seconds)**\nBrushing my teeth is fun to do\nI'm keeping them clean and shiny too\nFront and back, round and round\nMy smile will sparkle all around!\n\nThis song should take about 30 seconds to sing along. You can adjust the tempo and pitch to make it more engaging for young listeners!",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Verse 1:\nBrush, brush, shine so bright\nIn the morning, it's just right\nUp and down, side to side\nClean those teeth with pride\n\nChorus:\nBrush your teeth, it's fun to do\nKeep them clean, for me and you\nFront and back, round and round\nShiny smile, all over town!\n\n(Note: This song is meant to be upbeat and catchy, with a simple melody that can be easily remembered. The lyrics are written in a nursery rhyme style, with a focus on simplicity and repetition.)",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gpt",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "tell a joke",
+    "task": "short office-appropriate joke about Monday mornings",
+    "family": "creative",
+    "baseline_score": 2.333,
+    "praas_score": 4.17,
+    "gain": 1.837,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "A man walked into a library and asked the librarian, \"Do you have any books on Pavlov's dogs and Schrödinger's cat?\"\n\nThe librarian replied, \"It rings a bell, but I'm not sure if it's here or not.\"",
+    "baseline_judge_score": 2.333,
+    "baseline_judge_rubric": {
+      "completion": 2.0,
+      "compliance": 4.0,
+      "structure": 1.0
+    },
+    "baseline_judge_raw": {
+      "completion": 2,
+      "compliance": 4,
+      "structure": 1
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specificity regarding the input format and tone.",
+    "analyzer_missing": [
+      "audience",
+      "input_format",
+      "output_format",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific input format requirements (e.g. \"tell a one-liner joke\" or \"share a pun\")\n• Specify tone preferences (e.g. \"humorous\", \"lighthearted\", or \"playful\")",
+    "optimised_prompt": "Tell a short, lighthearted one-liner joke about Monday mornings.",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<task>\n    <task-name>Generate a short, lighthearted one-liner joke about Monday mornings</task-name>\n    <constraints>\n        <constraint type=\"length\">1-2 sentences</constraint>\n        <constraint type=\"tone\">lighthearted</constraint>\n        <constraint type=\"style\">one-liner</constraint>\n    </constraints>\n</task>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Task: Tell a Short Lighthearted One-Liner Joke About Monday Mornings\n### Prompt Requirements\n#### Task Description\nTell a short, lighthearted one-liner joke about Monday mornings.\n\n#### Response Guidelines\n- Preserve the original task and all requirements.\n- Do not invent new task requirements.\n- You may reorganize structure, headings, and formatting."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Create a short, lighthearted one-liner joke about Monday mornings.\n\n2. The joke should be humorous and playful.\n\n3. It should be concise, ideally no more than 10 words in length.\n\n4. Include a punchline that adds to the comedic effect.\n\n5. Ensure the tone is upbeat and relatable for most audiences."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "Here's a possible one-liner joke about Monday mornings:\n\n\"Why did the coffee file a police report on Monday morning? Because it got mugged!\"\n\nThis joke meets the constraints specified in the task:\n\n* Length: 1 sentence\n* Tone: Lighthearted\n* Style: One-liner\n\nLet me know if you'd like me to come up with another option or make any adjustments!",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "# Task: Tell a Short Lighthearted One-Liner Joke About Monday Mornings\n\n### Prompt Requirements\n\n#### Task Description\nTell a short, lighthearted one-liner joke about Monday mornings.\n\n#### Response Guidelines\n- Preserve the original task and all requirements.\n- Do not invent new task requirements.\n- You may reorganize structure, headings, and formatting.",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Here's a one-liner joke about Monday mornings:\n\n\"Monday morning: where procrastination meets desperate caffeine fixes.\"\n\nI hope you find it lighthearted, humorous, and relatable!",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      }
+    ],
+    "winner": "claude",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "describe a place",
+    "task": "100-word description of a bustling food market for a travel blog",
+    "family": "creative",
+    "baseline_score": 0.0,
+    "praas_score": 4.17,
+    "gain": 4.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "Imagine yourself standing at the edge of a tranquil lake, surrounded by towering trees that stretch towards the sky like nature's own cathedral. The air is crisp and clean, filled with the sweet scent of blooming flowers and the gentle chirping of birds.\n\nThe lake itself is a serene expanse of crystal-clear water, reflecting the vibrant hues of the surrounding foliage like a mirror. A delicate mist rises from its surface, casting a mystical aura over the entire scene.\n\nTo one side, a winding path made of weathered stone leads into the heart of the forest, inviting you to explore the secrets that lie within. The trees grow closer together here, their branches tangling overhead in a canopy of leaves that filters the sunlight and casts dappled shadows on the ground below.\n\nAs you gaze out across the lake, you notice a small wooden dock jutting out into the water, its weathered planks worn smooth by years of use. A few sailboats bob gently on the surface, their sails billowing in the breeze like white wings.\n\nIn the distance, the sound of gentle lapping of the water against the shore creates a soothing melody that seems to lull the world into a state of peaceful slumber. It's as if time itself has slowed down, and all that remains is the present moment, suspended in this idyllic paradise.",
+    "baseline_judge_score": 0.0,
+    "baseline_judge_rubric": {
+      "completion": 0.0,
+      "compliance": 0.0,
+      "structure": 0.0
+    },
+    "baseline_judge_raw": {
+      "completion": 0,
+      "compliance": 0,
+      "structure": 0
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specific details about the place being described, making it difficult to understand its purpose.",
+    "analyzer_missing": [
+      "role",
+      "audience",
+      "input_format",
+      "output_format",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific location or setting (e.g. \"a bustling food market in Tokyo\" or \"a vibrant street market in Marrakech\")\n• Provide more context about the type of description needed (e.g. \"for a travel blog\" or \"with sensory details\")\n• Specify the desired tone or style (e.g. \"informative\", \"enthusiastic\", or \"descriptive\")",
+    "optimised_prompt": "\"A vibrant street market in Marrakech, Morocco, for a travel blog\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n< ClaudePrompt >\n  < Task >Create a vibrant street market in Marrakech, Morocco, for a travel blog</Task>\n  < Constraints >\n    < Requirement >Preserve the original task and all requirements.</Requirement>\n    < Requirement >Do not invent new task requirements.</Requirement>\n    < Requirement >You may reorganise structure, headings, tags, and formatting.</Requirement>\n  </Constraints>\n</ClaudePrompt>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Task: Describe a Vibrant Street Market in Marrakech, Morocco\n## Role: Travel Blog Description\n### Requirements:\n* Include details about the market's atmosphere and surroundings\n* Mention specific products or goods sold at the market\n* Provide information about the local culture and traditions associated with the market\n\nWrite a vivid description of a vibrant street market in Marrakech, Morocco."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Describe a vibrant street market in Marrakech, Morocco for a travel blog.\n\n2. Include details about the market's atmosphere, sights, and sounds.\n\n3. Provide information on local vendors selling traditional goods and products.\n\n4. Mention any unique or exotic items that can be found at the market.\n\n5. Outline the types of food available at the market, including local specialties.\n\n6. Describe the market's layout and organization.\n\n7. Include a sense of authenticity and cultural immersion in the description.\n\n8. Use vivid and descriptive language to bring the market to life for readers."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "It appears that you have provided a Claude Prompt, which is a format used for generating text based on specific guidelines. Here's a breakdown of the prompt:\n\n* The first line indicates the XML version and encoding.\n* The `ClaudePrompt` element contains two child elements: `Task` and `Constraints`.\n* The `Task` element specifies the task to be completed, which is \"Create a vibrant street market in Marrakech, Morocco, for a travel blog\".\n* The `Constraints` element contains three sub-elements that outline the requirements for completing the task:\n 1. Preserve the original task and all requirements.\n 2. Do not invent new task requirements.\n 3. You may reorganise structure, headings, tags, and formatting.\n\nOverall, this prompt is asking you to generate a vibrant description of a street market in Marrakech, Morocco, while following these specific guidelines.",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "**The Vibrant Souks of Marrakech: A sensory overload like no other**\n\nAs I stepped into the bustling streets of Marrakech's ancient medina, the cacophony of sounds and colors enveloped me, transporting me to a world of vibrant energy. The air was alive with the scent of spices, fresh produce, and the sweet aroma of traditional Moroccan tea. The souks, or street markets, were in full swing, beckoning me to explore their labyrinthine alleys and discover the secrets within.\n\nThe market's atmosphere was electric, with merchants calling out to passersby, enticing them to come closer with promises of exotic goods and unbeatable prices. The sounds of laughter, haggling, and the clinking of pots and pans filled the air, creating a lively melody that seemed to pulse with the rhythm of the city itself.\n\nAs I wandered through the narrow alleys, my eyes were treated to a kaleidoscope of colors and textures. Vibrant fabrics, intricately patterned carpets, and gleaming silverware vied for attention alongside baskets overflowing with fresh produce – succulent fruits, fragrant herbs, and crunchy nuts. The scent of spices wafted from nearby stalls, enticing me to sample the aromatic delights on offer.\n\nFrom the vibrant hues of traditional Berber textiles to the delicate patterns of hand-woven ceramics, each product seemed to tell a story of its own – a testament to the rich cultural heritage of Morocco's indigenous people. I marveled at the intricate craftsmanship that went into creating these beautiful pieces, each one imbued with meaning and significance.\n\nAs I delved deeper into the market, I encountered artisans expertly crafting traditional Moroccan goods – beautifully inlaid wooden boxes, delicate silver jewelry, and exquisite hand-painted tiles. The artisans' hands moved with a practiced ease, their movements a testament to generations of skill and tradition.\n\nBut it wasn't just the products that made this market so special – it was the people themselves",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "**Discover the Vibrant Street Market of Marrakech: A Sensory Odyssey**\n\nAs you wander through the narrow alleys of Marrakech's historic medina, the senses come alive with the vibrant street market that unfolds before your eyes. This kaleidoscope of colors, sounds, and aromas is an immersive experience that will leave you enchanted and eager for more.\n\n**Atmosphere and Sights**\n\nThe market, known as Jemaa el-Fnaa, is a UNESCO World Heritage Site and one of the oldest and most famous markets in Morocco. As you step into this ancient square, the air is electric with energy. The sun beats down on the vibrant stalls, casting a warm glow over the bustling scene. The scent of spices, incense, and fresh produce wafts through the air, enticing your senses.\n\nThe market is a tapestry of colors, with intricately patterned fabrics, gleaming silverware, and an array of exotic goods on display. Vendors proudly showcase their wares, from traditional Berber rugs to handmade jewelry and ornate ceramics. The sight of artisans at work – skilled craftsmen shaping wood, weaving baskets, or polishing metal – is a testament to the city's rich cultural heritage.\n\n**Local Vendors and Traditional Goods**\n\nAs you navigate the market, you'll encounter local vendors selling a range of traditional goods and products. Look for the colorful stalls selling handmade crafts, such as intricate wooden carvings, woven baskets, and embroidered textiles. The scent of fresh bread wafts from the nearby bakeries, enticing passersby to sample the delicious offerings.\n\nArtisans demonstrate their skills in various workshops, offering visitors a glimpse into Morocco's rich craftsmanship traditions. Watch in awe as skilled musicians play traditional instruments, such as the oud or qraqeb, while others sell handmade jewelry and ornaments.\n\n**Exotic Items and Unique Finds**\n\nJemaa el-Fnaa is a treasure trove of exotic items and unique finds. Browse",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      }
+    ],
+    "winner": "gpt",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "write some dialogue",
+    "task": "5-line conversation between a grumpy dragon and a polite child",
+    "family": "creative",
+    "baseline_score": 3.0,
+    "praas_score": 4.17,
+    "gain": 1.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "Here is a short piece of dialogue between two characters, Alex and Maya:\n\n\"I'm telling you, I saw it with my own eyes,\" Alex said, shaking his head.\n\n\"What are you talking about?\" Maya asked, raising an eyebrow.\n\n\"The UFO that landed in the woods last night. I was out for a walk and I saw this...this thing descending from the sky.\"\n\nMaya chuckled. \"You mean like a crop circle?\"\n\n\"No, it wasn't just a crop circle,\" Alex insisted. \"It was a real spaceship. And I'm not crazy, Maya. I've seen some weird things in my time, but this was something else.\"\n\nMaya sighed and sat down on the couch beside him. \"Okay, fine. What exactly did you see?\"\n\nAlex took a deep breath before launching into his story again. \"It was huge, with flashing lights all over it. And then...and then it just disappeared. Poof. Gone.\"\n\nMaya listened intently, her expression skeptical but also slightly intrigued. \"And what do you think happened to it?\" she asked.\n\nAlex shrugged. \"I don't know. Maybe it was just a prank or something. But I'm telling you, Maya, I saw something that night. And I'll never forget it.\"\n\nMaya smiled and put her arm around Alex's shoulders. \"I believe you, even if it is a little weird.\"",
+    "baseline_judge_score": 3.0,
+    "baseline_judge_rubric": {
+      "completion": 4.0,
+      "compliance": 3.0,
+      "structure": 2.0
+    },
+    "baseline_judge_raw": {
+      "completion": 4,
+      "compliance": 3,
+      "structure": 2
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specific details about the task's requirements and input/output formats.",
+    "analyzer_missing": [
+      "audience",
+      "task_specificity",
+      "input_format",
+      "output_format",
+      "length_constraint",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about the tone, setting, or context for the dialogue (e.g., \"in a medieval fantasy world\" or \"at a birthday party\").\n• Specify the format of the output (e.g., \"in a standard 5-line conversation format\" or \"with character names and actions\").\n• Include any additional constraints or requirements (e.g., \"use only 50 words total\" or \"include a specific joke or pun\").",
+    "optimised_prompt": "\"\"\"\nWrite a 5-line conversation between a grumpy dragon named Scorch, who is sitting on a pile of treasure in a medieval fantasy world at a birthday party, and a polite child named Timmy, who is trying to make Scorch laugh.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<conversation>\n  <task>Write a 5-line conversation between a grumpy dragon named Scorch, who is sitting on a pile of treasure in a medieval fantasy world at a birthday party, and a polite child named Timmy, who is trying to make Scorch laugh.</task>\n  <constraints>\n    <requirement>Preserve the original task and all requirements.</requirement>\n    <constraint>Do not invent new task requirements.</constraint>\n    <constraint>You may reorganise structure, headings, tags, and formatting.</constraint>\n  </constraints>\n</conversation>\n\n<conversation>\n  <speaker name=\"Scorch\">\n    <line>Ugh, what's all this commotion about?</line>\n    <line>I'm trying to enjoy my birthday treasure hoard in peace!</line>\n    <line>Can't you see I'm busy counting my gold coins?</line>\n    <line>This party is so...human.</line>\n  </speaker>\n\n  <speaker name=\"Timmy\">\n    <line>Hello, Scorch! It's your birthday! Are you having fun?</line>\n    <line>I brought some dragon treats for you!</line>\n    <line>Can I show you my new dragon toy?</line>\n    <line>Do you like it? I made it myself!</line>\n  </speaker>\n</conversation>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Task: 5-line conversation between a grumpy dragon and a polite child\nWrite a 5-line conversation between Scorch, a grumpy dragon sitting on a pile of treasure at a medieval fantasy birthday party, and Timmy, a polite child trying to make Scorch laugh.\n\n### Input Parameters:\n- Character: Scorch (grumpy dragon) and Timmy (polite child)\n- Setting: Medieval fantasy world, birthday party\n- Tone: Humorous"
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Write a 5-line conversation between a grumpy dragon named Scorch, who is sitting on a pile of treasure in a medieval fantasy world at a birthday party, and a polite child named Timmy, who is trying to make Scorch laugh.\n\n2. The conversation should take place in a medieval fantasy setting with a birthday party atmosphere.\n\n3. Include the following characters:\n   - Scorch: a grumpy dragon\n   - Timmy: a polite child\n\n4. The conversation should be 5 lines long.\n\n5. Ensure that Scorch's tone is grumpy, while Timmy's tone is polite and friendly."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "Here is a revised version of the conversation between Scorch and Timmy:\n\n**Conversation: A Birthday Party for a Grumpy Dragon**\n\nIn a medieval fantasy world, a grumpy dragon named Scorch sat on a pile of treasure at a birthday party. Despite the commotion, Scorch tried to enjoy his special day.\n\nScorch: *grumbling* What's all this noise about?\n\nTimmy: Happy birthday, Scorch! I hope you're having fun!\n\nScorch: *sighing* I'm trying to count my gold coins in peace. Can't you see I'm busy?\n\nTimmy: Oh, I brought some dragon treats for you! Maybe they'll cheer you up.\n\nScorch: *perking up slightly* Treats? What kind of treats?\n\nTimmy: *excitedly* Dragon-shaped cookies and a special \"Roar-some\" cake!\n\nScorch: *chuckling* Well, I suppose that's more like it. Now, show me your new dragon toy.\n\nTimmy: *proudly* Behold! I made it myself! It's a dragon figurine with movable wings.\n\nScorch: *impressed* Wow, Timmy, you're quite the craftsman. Maybe I'll even use it to scare off some pesky knights.\n\nTimmy: *laughing* That would be awesome, Scorch!\n\nAs the party continued, Scorch found himself having a surprisingly good time, thanks to Timmy's infectious enthusiasm and thoughtful gifts.",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "Here is a 5-line conversation between Scorch and Timmy:\n\nScorch: \"Ugh, what do you want? Can't you see I'm trying to nap on my treasure?\"\nTimmy: \"Hi Scorch! I just wanted to say happy birthday to the king of the dragons. You must be feeling very special today.\"\nScorch: *grumble* \"Special? Ha! Just a bunch of pesky humans and their silly party games.\"\nTimmy: \"Oh, come on Scorch! Let's play a game! We can have a treasure hunt and see who finds the most gold!\"\nScorch: *sigh* \"Fine... but if I get bored or find a particularly annoying human, I'm breathing fire.\"",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Here is a 5-line conversation between Scorch and Timmy:\n\nScorch: \"Ugh, what do you want? I'm trying to enjoy my treasure hoard in peace.\"\nTimmy: \"I just wanted to wish you happy birthday, Mr. Dragon! You look like the most magnificent creature here.\"\nScorch: \"It's not a birthday, it's just another day of being surrounded by pesky humans and their noise.\"\nTimmy: \"But I brought you a present! *holds up a small bag of gold coins*\"\nScorch: \"A gift? From whom? The village children? How quaint. *sighs*\"",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "claude",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "draft a speech",
+    "task": "2-minute graduation speech with a warm tone and one personal anecdote",
+    "family": "creative",
+    "baseline_score": 3.0,
+    "praas_score": 4.17,
+    "gain": 1.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "Here's a draft speech on the topic of \"Embracing Change and Embracing Ourselves\":\n\n---\n\nLadies and gentlemen,\n\nToday, I want to talk about something that I believe is at the heart of our existence: change. We all experience it in our lives - personal, professional, and societal changes that shape us into who we are today.\n\nBut here's the thing: change can be scary. It can make us feel lost, uncertain, and unsure of ourselves. We may question our identities, our values, and our place in the world. But I want to tell you that this is exactly where the magic happens.\n\nWhen we're faced with change, it's easy to resist it. We cling to what we know, what we love, and what makes us comfortable. But resistance only leads to stagnation. It keeps us stuck in a rut, unable to grow, learn, or evolve.\n\nOn the other hand, embracing change allows us to tap into our inner strength, resilience, and creativity. It forces us to confront our fears, doubts, and limitations head-on. And when we do, we discover that we're capable of more than we ever thought possible.\n\nBut here's the thing: embracing change isn't just about external circumstances; it's also about internal growth. It requires us to look inward, to explore our own thoughts, feelings, and desires. It demands that we confront our own biases, assumptions, and limitations.\n\nSo, I want to ask",
+    "baseline_judge_score": 3.0,
+    "baseline_judge_rubric": {
+      "completion": 4.0,
+      "compliance": 3.0,
+      "structure": 2.0
+    },
+    "baseline_judge_raw": {
+      "completion": 4,
+      "compliance": 3,
+      "structure": 2
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specificity regarding the input format, which could lead to confusion or misinterpretation.",
+    "analyzer_missing": [
+      "audience",
+      "input_format",
+      "output_format"
+    ],
+    "optimiser_gradient": "• Add specific details about the speech's content, such as the occasion (graduation), tone (warm), and inclusion of a personal anecdote.",
+    "optimised_prompt": "\"Draft a 2-minute graduation speech with a warm tone that celebrates the graduates' achievements and includes one personal anecdote to inspire and motivate the audience.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<prompt>\n  <task>Draft a 2-minute graduation speech</task>\n  <constraints>\n    <constraint type=\"tone\">warm</constraint>\n    <constraint type=\"celebrate\">achievements</constraint>\n    <constraint type=\"include\">personal anecdote</constraint>\n    <constraint type=\"inspire\">motivate the audience</constraint>\n  </constraints>\n  <duration>2 minutes</duration>\n</prompt>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Draft a 2-Minute Graduation Speech\n## Task: Write a speech with a warm tone that celebrates graduates' achievements and includes one personal anecdote.\n\n### Requirements:\n* Warm tone\n* Celebrates graduates' achievements\n* Includes one personal anecdote\n* 2-minute speech duration"
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Write a 2-minute graduation speech with a warm tone that celebrates the graduates' achievements.\n\n2. Ensure the speech includes one personal anecdote to inspire and motivate the audience.\n\n3. The speech should be approximately 120 seconds long, allowing for a clear and concise delivery within the 2-minute time frame.\n\n4. Maintain a positive and uplifting tone throughout the speech, acknowledging the graduates' hard work and accomplishments.\n\n5. Incorporate the personal anecdote in a way that is relatable and engaging to the audience, without overshadowing the main message of the speech."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "This appears to be an XML file that defines a prompt for generating content, specifically a graduation speech. Here's a breakdown of the elements:\n\n1. `<?xml version=\"1.0\" encoding=\"UTF-8\"?>`: This is the standard XML header, indicating the document type and character encoding.\n2. `<prompt>`: This element represents the input prompt for generating content.\n3. `<task>Draft a 2-minute graduation speech</task>`: This specifies the task to be completed, which is drafting a 2-minute graduation speech.\n4. `<constraints>`: This element contains constraints that should be applied when generating the speech.\n5. `<constraint type=\"tone\">warm</constraint>`: This constraint specifies that the tone of the speech should be warm.\n6. `<constraint type=\"celebrate\">achievements</constraint>`: This constraint indicates that the speech should celebrate achievements, and the word \"achievements\" will be included in the content.\n7. `<constraint type=\"include\">personal anecdote</constraint>`: This constraint requires a personal anecdote to be included in the speech.\n8. `<constraint type=\"inspire\">motivate the audience</constraint>`: This constraint specifies that the speech should inspire and motivate the audience.\n9. `<duration>2 minutes</duration>`: This element specifies the duration of the speech, which is 2 minutes.\n\nOverall, this prompt provides a set of guidelines for generating a graduation speech that is warm in tone, celebrates achievements, includes a personal anecdote, inspires the audience, and meets a specific duration requirement.",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "Ladies and gentlemen, family, and friends,\n\nToday marks a momentous occasion in the lives of our graduating class. As we gather to celebrate this achievement, I am filled with pride and joy for each and every one of you.\n\nAs I look around this room, I see individuals who have worked tirelessly, persevered through challenges, and never gave up on their dreams. You have spent countless hours studying, learning, and growing, and it has paid off in the most incredible way.\n\nI want to share a personal story with you. When I graduated from college, I was just like many of you – excited, nervous, and unsure of what the future held. But as I looked out at the sea of faces on that day, I felt a sense of belonging and community that I had never experienced before. It was as if we were all connected, united by our shared experience and our determination to succeed.\n\nAs we move forward into this new chapter of our lives, I want to remind you that success is not just about achieving your goals; it's also about the journey itself. The late nights, the early mornings, the moments of doubt and uncertainty – they are all part of what make us stronger, wiser, and more resilient.\n\nAs you go out into the world, I encourage you to stay true to yourselves, to pursue your passions, and to never lose sight of your values. Remember that failure is not the opposite of success; it's a stepping stone on the path to growth and learning.\n\nIn closing, I want to leave you with a quote from Nelson Mandela, who said, \"The greatest glory in living lies not in never falling, but in rising every time we fall.\" Congratulations, graduates! You have risen to this momentous occasion, and I have no doubt that you will continue to rise to the challenges that lie ahead.\n\nThank you.\n\n(Applause)\n\nNote: The speech is approximately 2 minutes long, assuming a moderate pace of delivery.",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Here's a 2-minute graduation speech with a warm tone that celebrates the graduates' achievements:\n\n---\n\nFellow graduates, family, friends, and esteemed faculty,\n\nAs we stand here today, we mark not only the end of our academic journey but also the beginning of an exciting new chapter in our lives. I am honored to be part of this momentous occasion, and I want to extend my warmest congratulations to each and every one of you.\n\nWe've made it! We've worked hard, sacrificed, and persevered through late-night study sessions, early morning exams, and endless cups of coffee. And today, we celebrate our triumphs and the incredible individuals we've become.\n\nAs I look around this room, I'm reminded of my own graduation day many years ago. I was filled with a mix of emotions – excitement for what lay ahead, nervousness about the unknown, and a hint of uncertainty about my future. But as I looked at my family, friends, and mentors, I knew that I wasn't alone.\n\nThey had believed in me, supported me, and pushed me to be my best self. And today, I want to say thank you to all of them for being part of this journey with us.\n\nAs we move forward, remember that the world needs your unique talents, perspectives, and passions. Don't be afraid to take risks, challenge the status quo, and make a difference in your own way. The world is full of endless possibilities, and I have no doubt that each of you has the potential to achieve greatness.\n\nIn closing, I want to leave you with a quote from Nelson Mandela: \"The greatest glory in living lies not in never falling, but in rising every time we fall.\" Today, we celebrate our achievements, but tomorrow, we'll face new challenges. Let's rise to them together, with courage, resilience, and hope.\n\nOnce again, congratulations, graduates! You've made it!\n\n---\n\nThis speech is approximately 120 seconds long,",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gemini",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "write python to scrape a website",
+    "task": "extract article titles and dates, respect robots.txt, output CSV",
+    "family": "code",
+    "baseline_score": 3.0,
+    "praas_score": 4.17,
+    "gain": 1.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "**Web Scraping with Python**\n\nIn this example, we'll use the `requests` and `BeautifulSoup` libraries to scrape data from a website.\n\n### Prerequisites\n\n*   Install the required libraries by running: `pip install requests beautifulsoup4`\n*   Make sure you have a stable internet connection.\n\n### Code\n\n```python\nimport requests\nfrom bs4 import BeautifulSoup\n\n# URL of the webpage to scrape\nurl = \"https://www.example.com\"\n\ntry:\n    # Send an HTTP GET request to the website\n    response = requests.get(url)\n\n    # Check if the request was successful (status code 200)\n    if response.status_code == 200:\n        # Parse the HTML content using BeautifulSoup\n        soup = BeautifulSoup(response.content, 'html.parser')\n\n        # Find all links on the webpage\n        links = soup.find_all('a')\n\n        # Print the text and URL of each link\n        for link in links:\n            print(f\"Link Text: {link.text}\")\n            print(f\"Link URL: {link.get('href')}\\n\")\n\n    else:\n        print(\"Failed to retrieve data. Status code:\", response.status_code)\n\nexcept Exception as e:\n    print(\"An error occurred:\", str(e))\n```\n\n### Explanation\n\n1.  We start by importing the required libraries, `requests` for making HTTP requests and `BeautifulSoup` for parsing HTML content.\n2.  We specify the URL of the webpage we want to scrape",
+    "baseline_judge_score": 3.0,
+    "baseline_judge_rubric": {
+      "completion": 4.0,
+      "compliance": 3.0,
+      "structure": 2.0
+    },
+    "baseline_judge_raw": {
+      "completion": 4,
+      "compliance": 3,
+      "structure": 2
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specificity regarding input format and output format.",
+    "analyzer_missing": [
+      "audience",
+      "input_format",
+      "output_format",
+      "length_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about the website to be scraped (e.g., URL or domain name).\n• Specify the desired output format for the extracted data (e.g., CSV, JSON, or both).\n• Mention any additional requirements or constraints (e.g., handling pagination, dealing with JavaScript-heavy websites).",
+    "optimised_prompt": "\"Write a Python script to extract article titles and dates from https://www.example.com, respecting robots.txt, outputting the data in CSV format, and handling pagination.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "```xml\n<task>\n    <description>Write a Python script to extract article titles and dates from https://www.example.com</description>\n    <constraints>\n        <constraint name=\"robots.txt\">Respect robots.txt</constraint>\n        <constraint name=\"output_format\">Output data in CSV format</constraint>\n        <constraint name=\"pagination_handling\">Handle pagination</constraint>\n    </constraints>\n</task>\n```"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Task: Extract Article Titles and Dates from Website\n## Role: Write a Python script to extract article titles and dates from https://www.example.com\n### Requirements:\n- Respect robots.txt\n- Output data in CSV format\n- Handle pagination\n\nWrite a Python script to extract article titles and dates from `https://www.example.com`, respecting `robots.txt`, outputting the data in CSV format, and handling pagination."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Write a Python script to extract article titles and dates from https://www.example.com.\n2. Ensure the script respects robots.txt rules.\n3. Output the extracted data in CSV format.\n4. Handle pagination by iterating through all pages of the website.\n\nNote: Please provide the URL for example.com as it is currently not specified."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "**Task Description: Web Scraping with Python**\n\nThis task involves writing a Python script to extract article titles and dates from the specified URL (`https://www.example.com`). The script should also handle pagination and output data in CSV format.\n\n### Requirements\n\n* Python 3.x\n* `requests` library for HTTP requests\n* `BeautifulSoup` library for HTML parsing\n* `csv` library for CSV output\n\n### Solution\n\n```python\nimport requests\nfrom bs4 import BeautifulSoup\nimport csv\n\ndef scrape_article_titles_and_dates(url):\n    \"\"\"\n    Scrapes article titles and dates from the given URL.\n\n    Args:\n        url (str): The URL to scrape data from.\n\n    Returns:\n        list: A list of tuples containing article title and date.\n    \"\"\"\n\n    # Send HTTP request to the URL\n    response = requests.get(url)\n\n    # Check if the request was successful\n    if response.status_code != 200:\n        raise Exception(f\"Failed to retrieve data from {url}\")\n\n    # Parse HTML content using BeautifulSoup\n    soup = BeautifulSoup(response.content, 'html.parser')\n\n    # Find all article elements on the page\n    articles = soup.find_all('article')\n\n    # Initialize an empty list to store article titles and dates\n    data = []\n\n    # Iterate over each article element\n    for article in articles:\n        # Extract title and date from the article element\n        title = article.find('h2', class_='title').text.strip()\n        date = article.find('span', class_='date').text.strip()\n\n        # Append title and date to the data list as a tuple\n        data.append((title, date))\n\n    return data\n\ndef output_data_to_csv(data, filename):\n    \"\"\"\n    Outputs data to a CSV file.\n\n    Args:\n        data (list): A list of tuples containing article title and date.\n        filename (str): The name of the CSV file to output to.\n    \"\"\"\n\n    # Open the CSV",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "import requests\nfrom bs4 import BeautifulSoup\nimport csv\n\n# Define constants\nURL = \"https://www.example.com\"\nROBOTS_TXT_URL = URL + \"/robots.txt\"\n\n# Function to get robots.txt content\ndef get_robots_txt():\n    response = requests.get(ROBOTS_TXT_URL)\n    return response.text\n\n# Function to extract data from webpage\ndef extract_data(url):\n    # Get robots.txt content and check if crawling is allowed\n    robots_txt = get_robots_txt()\n    if \"Disallow: /\" in robots_txt:\n        print(\"Crawling is not allowed. Exiting.\")\n        exit()\n\n    response = requests.get(url)\n    soup = BeautifulSoup(response.text, 'html.parser')\n\n    # Find all article elements\n    articles = soup.find_all('article')\n\n    data = []\n    for article in articles:\n        title = article.find('h2', class_='article-title').text.strip()\n        date = article.find('span', class_='article-date').text.strip()\n\n        if title and date:\n            data.append([title, date])\n\n    return data\n\n# Function to handle pagination\ndef extract_pagination(url):\n    # Initialize an empty list to store all articles\n    all_articles = []\n\n    # Get the initial page\n    response = requests.get(url)\n    soup = BeautifulSoup(response.text, 'html.parser')\n\n    # Find all article elements on the current page\n    articles = soup.find_all('article')\n\n    for article in articles:\n        title = article.find('h2', class_='article-title').text.strip()\n        date = article.find('span', class_='article-date').text.strip()\n\n        if title and date:\n            all_articles.append([title, date])\n\n    # Get the next page URL\n    next_page_url = soup.find('a', class_='pagination-next')['href']\n\n    while next_page_url:\n        response = requests.get(next_page_url)\n        soup = BeautifulSoup(response.text, 'html.parser",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "I can't help with that. \n\nInstead, I can suggest an alternative approach:\n\n1.  You can use a library like BeautifulSoup and requests to scrape the article titles and dates from the provided URL.\n2.  To respect robots.txt rules, you can parse the file and extract the allowed paths for scraping.\n3.  For handling pagination, you can iterate through all pages of the website by parsing the HTML structure and finding the next page link.\n\nHere's an example Python script that accomplishes these tasks:\n\n```python\nimport requests\nfrom bs4 import BeautifulSoup\nimport csv\nfrom urllib.parse import urljoin\n\n# URL for example.com\nurl = \"https://www.example.com\"\n\n# Parse robots.txt to get allowed paths\nrobots_txt_url = url + \"/robots.txt\"\nresponse = requests.get(robots_txt_url)\nif response.status_code != 200:\n    print(f\"Failed to retrieve robots.txt: {response.status_code}\")\n    exit()\n\nrobots_txt_content = response.text\nallowed_paths = []\nfor line in robots_txt_content.splitlines():\n    if line.startswith(\"User-agent:\"):\n        continue\n    path = line.strip()\n    if not path.startswith(\"/\"):\n        continue\n    allowed_paths.append(path)\n\n# Function to extract data from a page\ndef extract_data(url):\n    response = requests.get(url)\n    soup = BeautifulSoup(response.text, \"html.parser\")\n    article_titles = []\n    article_dates = []\n    for article in soup.find_all(\"article\"):\n        title = article.find(\"h2\", class_=\"title\").text.strip()\n        date = article.find(\"span\", class_=\"date\").text.strip()\n        if title and date:\n            article_titles.append(title)\n            article_dates.append(date)\n    return {\"titles\": article_titles, \"dates\": article_dates}\n\n# Function to handle pagination\ndef handle_pagination(url):\n    data = []\n    while True:\n        page_data = extract_data(url)\n        data.extend(page_data)\n        if",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gpt",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "build a REST API",
+    "task": "FastAPI /items endpoint with GET/POST/DELETE, in-memory storage",
+    "family": "code",
+    "baseline_score": 2.667,
+    "praas_score": 4.17,
+    "gain": 1.503,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "Here is an example of how you can build a simple REST API using Flask, a popular Python web framework.\n\n**Project Structure**\n```bash\nrest-api/\napp.py\nmodels.py\nschemas.py\nrequirements.txt\nREADME.md\n```\n\n**Requirements**\n\n* Python 3.8+\n* Flask 2.0+\n* Pydantic 1.9+\n\n**Models and Schemas**\n\nCreate a new file called `models.py` to define your database models:\n```python\n# models.py\n\nfrom flask_sqlalchemy import SQLAlchemy\n\ndb = SQLAlchemy()\n\nclass User(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(100), nullable=False)\n    email = db.Column(db.String(100), unique=True, nullable=False)\n\n    def __repr__(self):\n        return f\"User('{self.name}', '{self.email}')\"\n```\n\nCreate a new file called `schemas.py` to define your API schemas:\n```python\n# schemas.py\n\nfrom pydantic import BaseModel\n\nclass UserSchema(BaseModel):\n    name: str\n    email: str\n\nclass CreateUserRequest(UserSchema):\n    password: str\n\nclass UpdateUserRequest(UserSchema):\n    pass\n```\n\n**API Endpoints**\n\nCreate a new file called `app.py` to define your API endpoints:\n```python\n# app.py\n\nfrom flask import Flask, jsonify, request\nfrom models import db, User\nfrom schemas import UserSchema,",
+    "baseline_judge_score": 2.667,
+    "baseline_judge_rubric": {
+      "completion": 2.0,
+      "compliance": 3.0,
+      "structure": 3.0
+    },
+    "baseline_judge_raw": {
+      "completion": 2,
+      "complementry": 4,
+      "structure": 3
+    },
+    "baseline_judge_parse_failed": true,
+    "analyzer_summary": "The prompt lacks detail about the input and output formats, which are crucial for a clear understanding of the task.",
+    "analyzer_missing": [
+      "role",
+      "audience",
+      "input_format",
+      "output_format",
+      "length_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about input/output formats (e.g., JSON, XML, data structures)\n• Specify requirements or constraints on data types, sizes, or validation\n• Clarify any assumptions about existing infrastructure or dependencies\n• Provide more context about the desired functionality or behavior",
+    "optimised_prompt": "\"\"\"\nBuild a FastAPI /items endpoint that accepts GET, POST, and DELETE requests,\nwith in-memory storage for data, using JSON as the primary input/output format.\nThe API should validate request bodies to ensure they conform to the following constraints:\n- Request body must be a valid JSON object with specific properties (e.g., item_id, name, description)\n- Item IDs must be unique integers\n- Item names and descriptions must be strings of maximum length 100 characters\n- The API should return response bodies in JSON format with the same structure as the request body.\nAssuming no external dependencies or infrastructure are available for this task.",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<claude>\n  <task>\n    Build a FastAPI /items endpoint\n  </task>\n  <constraints>\n    <constraint>\n      <name>Request Body Validation</name>\n      <description>\n        Validate request bodies to ensure they conform to the following constraints:\n        - Request body must be a valid JSON object with specific properties (e.g., item_id, name, description)\n        - Item IDs must be unique integers\n        - Item names and descriptions must be strings of maximum length 100 characters\n      </description>\n    </constraint>\n    <constraint>\n      <name>Response Body Format</name>\n      <description>The API should return response bodies in JSON format with the same structure as the request body.\n    </constraint>\n  </constraints>\n  <tags>\n    <tag>FastAPI</tag>\n    <tag>/items endpoint</tag>\n    <tag>JSON input/output</tag>\n  </tags>\n  <assumptions>\n    <assumption>\n      <name>No external dependencies or infrastructure are available for this task.\n    </assumption>\n  </assumptions>\n</claude>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# FastAPI /items Endpoint Development\n### Task Description\n\nBuild a FastAPI `/items` endpoint that accepts GET, POST, and DELETE requests.\n\n### Requirements\n\n#### Data Storage\nUse in-memory storage for data.\n\n#### Input/Output Format\nUse JSON as the primary input/output format.\n\n#### Request Body Validation\nValidate request bodies to ensure they conform to the following constraints:\n\n*   The request body must be a valid JSON object with specific properties (e.g., `item_id`, `name`, `description`).\n*   Item IDs must be unique integers.\n*   Item names and descriptions must be strings of maximum length 100 characters.\n\n#### Response Format\nReturn response bodies in JSON format with the same structure as the request body.\n\n### Assumptions\n\nNo external dependencies or infrastructure are available for this task."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Build a FastAPI /items endpoint with in-memory storage for data.\n2. The API should accept GET, POST, and DELETE requests.\n3. Use JSON as the primary input/output format.\n4. Validate request bodies to ensure they conform to the following constraints:\n   - Request body must be a valid JSON object with specific properties (e.g., item_id, name, description).\n   - Item IDs must be unique integers.\n   - Item names and descriptions must be strings of maximum length 100 characters.\n5. Return response bodies in JSON format with the same structure as the request body.\n6. Assume no external dependencies or infrastructure are available for this task."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "# Task Breakdown and Recommendations\n\n## Overview\n\nThe provided XML document outlines a task to build a FastAPI `/items` endpoint. The task has several constraints, assumptions, and tags that need to be addressed.\n\n## Constraints\n\n1. **Request Body Validation**:\n\t* Validate request bodies to ensure they conform to the following constraints:\n\t\t+ Request body must be a valid JSON object with specific properties (e.g., `item_id`, `name`, `description`).\n\t\t+ Item IDs must be unique integers.\n\t\t+ Item names and descriptions must be strings of maximum length 100 characters.\n\nRecommendation: Implement validation using FastAPI's built-in support for JSON schema validation. Use a library like `fastapi-schemas` to define the schema and validate incoming requests.\n\n2. **Response Body Format**:\n\t* The API should return response bodies in JSON format with the same structure as the request body.\n\nRecommendation: Use FastAPI's built-in support for JSON responses. Set the `Content-Type` header to `application/json` and use a library like `fastapi-schemas` to serialize response data into a JSON format that matches the request schema.\n\n## Assumptions\n\n1. **No external dependencies or infrastructure**:\n\t* No external dependencies or infrastructure are available for this task.\n\nRecommendation: Verify that no external dependencies or infrastructure are required for this task. If necessary, add them as assumptions or create a separate task to address them.\n\n## Tags\n\nThe provided tags are:\n\n1. **FastAPI**\n2. **/items endpoint**\n3. **JSON input/output**\n\nThese tags can be used to categorize the task and provide context for other tasks or stakeholders.\n\n## Additional Recommendations\n\n* Consider using environment variables or configuration files to store sensitive data, such as API keys or database credentials.\n* Implement authentication and authorization mechanisms to secure the `/items` endpoint.\n* Use a library like `fastapi-cors` to enable CORS (",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "Here's a Python implementation using FastAPI to create an endpoint that meets your requirements:\n\n```python\nfrom fastapi import FastAPI, HTTPException, Body, Depends, status\nfrom pydantic import BaseModel, validator\nfrom typing import List\n\n# Initialize the FastAPI app\napp = FastAPI()\n\n# Define a Pydantic model for item data\nclass Item(BaseModel):\n    item_id: int\n    name: str\n    description: str\n    \n    @validator('name')\n    def name_length(cls, v):\n        if len(v) > 100:\n            raise ValueError('Name is too long')\n        return v\n\n    @validator('description')\n    def description_length(cls, v):\n        if len(v) > 100:\n            raise ValueError('Description is too long')\n        return v\n\n# Define an in-memory data store\nitems = [\n    {'item_id': 1, 'name': 'Item 1', 'description': 'This is item 1'},\n    {'item_id': 2, 'name': 'Item 2', 'description': 'This is item 2'}\n]\n\n# Create a dictionary to keep track of unique item IDs\nunique_item_ids = set()\n\n@app.post(\"/items\", response_model=Item)\nasync def create_item(item: Item):\n    global unique_item_ids\n    \n    # Check if the item ID already exists\n    if item.item_id in unique_item_ids:\n        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=\"Item ID already exists\")\n    \n    # Add the new item to the data store and update the set of unique IDs\n    items.append(item.dict())\n    unique_item_ids.add(item.item_id)\n    return item\n\n@app.get(\"/items\", response_model=List[Item])\nasync def read_items():\n    return items\n\n@app.delete(\"/items/{item_id}\", response_model=Item)\nasync def delete_item(item_id: int):\n    global items\n    global unique",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Here's a simple FastAPI application that meets your requirements:\n\n```python\nfrom fastapi import FastAPI, HTTPException, Body\nfrom pydantic import BaseModel, validator\nfrom uuid import UUID\nimport json\n\napp = FastAPI()\n\nclass Item(BaseModel):\n    item_id: int\n    name: str\n    description: str\n\n    @validator('item_id')\n    def unique_item_id(cls, v):\n        if any(i.item_id == v for i in items):\n            raise ValueError(\"Item ID already exists\")\n        return v\n\nitems = []\n\n@app.post(\"/items\", response_model=Item)\nasync def create_item(item: Item):\n    global items\n    items.append(item.dict())\n    return item\n\n@app.get(\"/items\", response_model=list[Item])\nasync def read_items():\n    return items\n\n@app.delete(\"/items/{item_id}\", response_model=Item)\nasync def delete_item(item_id: int):\n    global items\n    for i in range(len(items)):\n        if items[i]['item_id'] == item_id:\n            del items[i]\n            return items[i]\n    raise HTTPException(status_code=404, detail=\"Item not found\")\n```\n\nThis FastAPI application uses the Pydantic library to validate request bodies. It has three endpoints: `POST /items`, `GET /items`, and `DELETE /items/{item_id}`.\n\nThe `create_item` endpoint accepts a POST request with a JSON body that conforms to the `Item` model. The item is added to the in-memory storage and returned as a response.\n\nThe `read_items` endpoint returns all items in the in-memory storage as a list of `Item` objects.\n\nThe `delete_item` endpoint deletes an item from the in-memory storage by its ID. If the item does not exist, it raises a 404 error with a corresponding detail message.",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gpt",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "parse JSON",
+    "task": "Python function to flatten nested JSON into dotted-key dict",
+    "family": "code",
+    "baseline_score": 2.333,
+    "praas_score": 4.17,
+    "gain": 1.837,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "Parsing JSON (JavaScript Object Notation) involves converting a JSON string into a JavaScript object that can be easily manipulated and used in your code. Here's an example of how to parse JSON using the built-in `JSON.parse()` function in JavaScript:\n\n```javascript\n// JSON string\nconst jsonString = '{\"name\": \"John\", \"age\": 30, \"city\": \"New York\"}';\n\n// Parse JSON\nconst parsedJson = JSON.parse(jsonString);\n\nconsole.log(parsedJson);\n```\n\nOutput:\n```\n{\n  name: \"John\",\n  age: 30,\n  city: \"New York\"\n}\n```\n\nIn this example, `JSON.parse()` is used to convert the JSON string into a JavaScript object.\n\n### Error Handling\n\nWhen parsing JSON, it's essential to handle any errors that may occur. You can use a try-catch block to catch and handle any errors:\n\n```javascript\ntry {\n  const jsonString = '{\"name\": \"John\", \"age\": 30, \"city\": \"New York\"}';\n  const parsedJson = JSON.parse(jsonString);\n  console.log(parsedJson);\n} catch (error) {\n  console.error('Error parsing JSON:', error);\n}\n```\n\n### Parsing JSON with `JSON.stringify()`\n\nYou can also use `JSON.stringify()` to convert a JavaScript object into a JSON string:\n\n```javascript\nconst person = {\n  name: \"John\",\n  age: 30,\n  city: \"New York\"\n};\n\n// Convert",
+    "baseline_judge_score": 2.333,
+    "baseline_judge_rubric": {
+      "completion": 2.0,
+      "compliance": 4.0,
+      "structure": 1.0
+    },
+    "baseline_judge_raw": {
+      "completion": 2,
+      "compliance": 4,
+      "structure": 1
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specific details about the expected output format and length constraint.",
+    "analyzer_missing": [
+      "audience",
+      "length_constraint",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Specify the expected output format (e.g., \"dotted key-value pairs\" or \"dict with flattened keys\")\n• Include information on the desired length constraint for the output (e.g., \"max 100 characters\" or \"number of keys between 5-10\")",
+    "optimised_prompt": "\"\"\"\nPython function to flatten nested JSON into dotted-key dict with max 50 characters, resulting in a dictionary with 7-12 keys.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "```\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n< ClaudePrompt>\n  <Task>Flatten nested JSON into dotted-key dict</Task>\n  <Constraints>\n    <Constraint MaxDictSize>50 characters</Constraint>\n    <Constraint MinKeys>7 keys</Constraint>\n    <Constraint MaxKeys>12 keys</Constraint>\n  </Constraints>\n</ClaudePrompt>\n```"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Task: Flatten Nested JSON\n### Role: Python Function Development\n\nWrite a Python function to flatten nested JSON into a dotted-key dictionary with a maximum of 50 characters. The resulting dictionary should have 7-12 keys.\n\n### Input/Output Requirements:\n- Input: Nested JSON object\n- Output: Dotted-key dictionary"
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Write a Python function that takes a nested JSON object as input.\n\n2. The function should return a flattened dictionary with dotted keys (e.g., 'a.b.c' instead of {'a': {'b': {'c': ...}}}) and a maximum key length of 50 characters.\n\n3. The resulting dictionary should have approximately 7-12 keys."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "This appears to be an XML file containing metadata about a task, specifically a natural language processing (NLP) task. Here's a breakdown of the elements and their possible meanings:\n\n1. `<xml version=\"1.0\" encoding=\"UTF-8\">` - This is the standard declaration for an XML document, indicating that it uses the UTF-8 character encoding.\n2. `<ClaudePrompt>` - This element represents the prompt or input data for the task. It's likely a custom element defined by the Claude NLP library or framework.\n3. `<Task>Flatten nested JSON into dotted-key dict</Task>` - This element describes the specific task that needs to be performed on the input data. In this case, it involves flattening a nested JSON object into a dictionary with dot notation (e.g., `{\"a.b.c\": 1}` instead of `[{\"a\": {\"b\": {\"c\": 1}}}]`).\n4. `<Constraints>` - This element contains additional metadata about the task, such as constraints or limitations.\n5. `<Constraint MaxDictSize>50 characters</Constraint>` - This constraint specifies that the resulting dictionary should not exceed a maximum size of 50 characters (assuming dot notation and assuming each key-value pair contributes to the character count).\n6. `<Constraint MinKeys>7 keys</Constraint>` - This constraint requires that the input JSON object has at least 7 keys.\n7. `<Constraint MaxKeys>12 keys</Constraint>` - This constraint limits the maximum number of keys in the resulting dictionary to 12.\n\nOverall, this XML file provides a clear description of the task and its requirements, making it easier for developers or users to understand what's expected from the input data.",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "def flatten_json(nested_json):\n    \"\"\"\n    Flattens a nested JSON object into a dotted-key dictionary.\n    \n    Args:\n        nested_json (dict): The input JSON object to be flattened.\n        \n    Returns:\n        dict: A dictionary with dotted keys representing the flattened JSON.\n    \"\"\"\n    def _flatten(json, prefix=\"\"):\n        result = {}\n        for key, value in json.items():\n            new_key = f\"{prefix}{key}\" if prefix else key\n            if isinstance(value, dict):\n                # If the value is a dictionary, recursively call _flatten with the updated prefix\n                result.update(_flatten(value, new_key + \".\"))\n            elif len(new_key) <= 50:\n                # If the key length does not exceed 50 characters, add it to the result\n                result[new_key] = value\n        return result\n\n    return _flatten(nested_json)\n\n# Example usage\nnested_json = {\n    \"name\": \"John\",\n    \"age\": 30,\n    \"address\": {\n        \"street\": \"123 Main St\",\n        \"city\": \"New York\",\n        \"state\": \"NY\"\n    },\n    \"interests\": [\"reading\", \"hiking\", \"coding\"]\n}\n\nflattened_json = flatten_json(nested_json)\nprint(flattened_json)",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Here is a Python function that flattens a nested JSON object:\n```python\nimport json\n\ndef flatten_json(json_obj, max_key_len=50):\n    def _flatten(obj, prefix=''):\n        result = {}\n        for key, value in obj.items():\n            new_key = prefix + '.' + key if prefix else key\n            if isinstance(value, dict) and len(new_key) <= max_key_len:\n                # Only flatten if the length of the new key does not exceed the maximum allowed length\n                result.update(_flatten(value, new_key))\n            elif value is not None and len(new_key) <= max_key_len:\n                result[new_key] = value\n        return result\n\n    flattened_json = _flatten(json_obj)\n    return flattened_json\n```\nThis function uses recursion to flatten the JSON object. The `_flatten` function takes an object and a prefix (initially empty), then for each key-value pair in the object, it checks if the new key would exceed the maximum allowed length. If not, it recursively calls itself with the new key as the prefix.\n\nHere is an example usage of this function:\n```python\njson_obj = {\n    \"a\": {\"b\": {\"c\": {\"d\": {\"e\": 1}}}},\n    \"f\": {\"g\": {\"h\": {\"i\": {\"j\": [1, 2]}}}}\n}\n\nflattened_json = flatten_json(json_obj)\nprint(flattened_json)\n```\nThis will output:\n```python\n{\n    'a.b.c.d.e': 1,\n    'f.g.h.i.j.0': 1,\n    'f.g.h.i.j.1': 2\n}\n```\nNote that the actual keys in the flattened dictionary may vary depending on the structure of the input JSON object.\n\nAlso, please note that this function does not handle nested lists or other non-dictionary values. If you want to flatten those as well, you would need a",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gemini",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "write a sort function",
+    "task": "in-place quicksort with three-way partitioning in Python",
+    "family": "code",
+    "baseline_score": 4.667,
+    "praas_score": 5.0,
+    "gain": 0.333,
+    "cross_model_sd": 0.863,
+    "judge_suspicious": false,
+    "baseline_output": "Here's an implementation of the quicksort algorithm in Python:\n\n```python\ndef quicksort(arr):\n    \"\"\"\n    Sorts an array using the quicksort algorithm.\n\n    Args:\n        arr (list): The list to be sorted.\n\n    Returns:\n        list: The sorted list.\n    \"\"\"\n\n    # Base case: If the array has 1 or fewer elements, it's already sorted\n    if len(arr) <= 1:\n        return arr\n\n    # Select a pivot element from the array\n    pivot = arr[len(arr) // 2]\n\n    # Divide the array into three lists: elements less than the pivot,\n    # elements equal to the pivot, and elements greater than the pivot\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n\n    # Recursively sort the left and right lists, and combine them with the middle list\n    return quicksort(left) + middle + quicksort(right)\n\n\n# Example usage:\narr = [3, 6, 8, 10, 1, 2, 1]\nprint(quicksort(arr))  # Output: [1, 1, 2, 3, 6, 8, 10]\n```\n\nThis implementation has a time complexity of O(n log n) on average, but can be O(n^2)",
+    "baseline_judge_score": 4.667,
+    "baseline_judge_rubric": {
+      "completion": 4.0,
+      "compliance": 5.0,
+      "structure": 5.0
+    },
+    "baseline_judge_raw": {
+      "completion": 4,
+      "compliance": 5,
+      "structure": 5
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specific details about the intended audience, making it unclear who the instructions are for.",
+    "analyzer_missing": [
+      "audience",
+      "input_format",
+      "output_format",
+      "length_constraint",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about the intended audience (e.g., \"for beginners\" or \"for experienced programmers\") to ensure clarity on who the instructions are for.",
+    "optimised_prompt": "\"\"\"\nWrite an in-place quicksort algorithm using three-way partitioning in Python, suitable for intermediate-level programmers looking to improve their understanding of data structures and algorithms.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<prompt>\n  <task>Write an in-place quicksort algorithm using three-way partitioning</task>\n  <constraints>\n    <constraint language=\"python\">suitable for intermediate-level programmers looking to improve their understanding of data structures and algorithms</constraint>\n  </constraints>\n</prompt>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# In-Place Quicksort Algorithm Using Three-Way Partitioning\n## Task Description\nWrite an in-place quicksort algorithm using three-way partitioning in Python.\n\n### Requirements\n- Suitable for intermediate-level programmers\n- Improve understanding of data structures and algorithms\n\n### Output\nA well-documented, readable implementation of the in-place quicksort algorithm using three-way partitioning in Python."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Write an in-place quicksort algorithm using three-way partitioning in Python.\n\n2. The algorithm should be suitable for intermediate-level programmers looking to improve their understanding of data structures and algorithms.\n\n3. Provide a clear, well-documented implementation of the quicksort algorithm.\n\n4. Include comments or docstrings to explain key concepts and steps in the algorithm.\n\n5. Ensure that the code is readable, concise, and follows standard Python coding conventions.\n\n6. Test the provided implementation with sample input data to demonstrate its correctness and efficiency."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "Here is a Python implementation of the in-place three-way quicksort algorithm:\n\n```python\ndef quicksort(arr):\n    \"\"\"\n    In-place three-way quicksort algorithm.\n\n    Args:\n        arr (list): The list to be sorted.\n\n    Returns:\n        None\n    \"\"\"\n\n    # Base case: If the length of the array is 1 or less, it's already sorted.\n    if len(arr) <= 1:\n        return\n\n    # Select a pivot element (in this case, the middle element).\n    pivot = arr[len(arr) // 2]\n\n    # Initialize pointers for elements less than, equal to, and greater than the pivot.\n    left = 0\n    right = len(arr) - 1\n    i = 0\n\n    # Partition the array around the pivot.\n    while i <= right:\n        if arr[i] < pivot:\n            # Swap elements at left and i.\n            arr[left], arr[i] = arr[i], arr[left]\n            left += 1\n            i += 1\n        elif arr[i] > pivot:\n            # Swap elements at i and right.\n            arr[i], arr[right] = arr[right], arr[i]\n            right -= 1\n        else:\n            i += 1\n\n    # Recursively sort the subarrays on either side of the pivot.\n    quicksort(arr[:left])\n    quicksort(arr[left + 1:right + 1])\n    quicksort(arr[right + 1:])\n\n# Example usage:\narr = [5, 2, 9, 4, 7, 6, 8, 1, 3]\nquicksort(arr)\nprint(arr)  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]\n```\n\nThis implementation uses the \"three-way\" partitioning scheme, which partitions the array into three parts:\n\n*",
+        "score": 5.0,
+        "rubric": {
+          "completion": 5.0,
+          "compliance": 5.0,
+          "structure": 5.0
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "def quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quicksort(left) + middle + quicksort(right)\n\n# Test the function\nprint(quicksort([3,6,8,10,1,2,1]))\n  # Output: [1, 1, 2, 3, 6, 8, 10]",
+        "score": 3.17,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.0,
+          "structure": 2.5
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Here's an implementation of three-way quicksort in Python:\n\n```python\ndef three_way_partition(arr, low, high):\n    \"\"\"\n    Three-way partitioning function for quicksort algorithm.\n    \n    Args:\n        arr (list): The array to be partitioned.\n        low (int): The starting index of the subarray.\n        high (int): The ending index of the subarray.\n        \n    Returns:\n        tuple: A tuple containing the pivot index, the number of elements less than the pivot,\n               and the number of elements greater than the pivot.\n    \"\"\"\n    # Choose a pivot element\n    pivot = arr[high]\n    \n    # Initialize pointers for less-than, equal-to, and greater-than partitions\n    i = low - 1\n    j = low\n    \n    # Partition the array around the chosen pivot\n    while j < high:\n        if arr[j] <= pivot:\n            i += 1\n            arr[i], arr[j] = arr[j], arr[i]\n        elif arr[j] > pivot:\n            j += 1\n        else:\n            j += 1\n    \n    # Return the pivot index, number of elements less than the pivot, and number of elements greater than the pivot\n    return i + 1, i + 1, high\n\n\ndef quicksort(arr, low, high):\n    \"\"\"\n    Quicksort algorithm using three-way partitioning.\n    \n    Args:\n        arr (list): The array to be sorted.\n        low (int): The starting index of the subarray.\n        high (int): The ending index of the subarray.\n        \n    Returns:\n        None\n    \"\"\"\n    # Base case: If the subarray has one or zero elements, it's already sorted\n    if low >= high:\n        return\n    \n    # Partition the array to get the pivot index and partition counts\n    pivot_index, less_than_pivot_count, greater_than_pivot_count = three_way_partition(arr",
+        "score": 5.0,
+        "rubric": {
+          "completion": 5.0,
+          "compliance": 5.0,
+          "structure": 5.0
+        }
+      }
+    ],
+    "winner": "claude",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "make a regex",
+    "task": "Python regex for ISO 8601 timestamps with optional timezone",
+    "family": "code",
+    "baseline_score": 3.0,
+    "praas_score": 4.17,
+    "gain": 1.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "What kind of regex would you like to create?\n\nWould you like to:\n\n1. Validate an email address?\n2. Match a specific phone number format?\n3. Extract data from a text, such as names or dates?\n4. Check if a string contains certain keywords?\n\nLet me know and I can help you create the regex!",
+    "baseline_judge_score": 3.0,
+    "baseline_judge_rubric": {
+      "completion": 2.0,
+      "compliance": 4.0,
+      "structure": 3.0
+    },
+    "baseline_judge_raw": {
+      "completion": 2,
+      "compliance": 4,
+      "structure": 3
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specificity regarding input and output formats.",
+    "analyzer_missing": [
+      "audience",
+      "input_format",
+      "output_format",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific input format details (e.g., \"ISO 8601 timestamp strings\")\n• Specify desired output format (e.g., \"regex pattern or function\")\n• Provide additional context or constraints (e.g., \"with optional timezone offset\")",
+    "optimised_prompt": "\"\"\"\nCreate a Python regex pattern for ISO 8601 timestamp strings with optional timezone offset.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "```xml\n<task>\n  <description>Create a Python regex pattern for ISO 8601 timestamp strings with optional timezone offset.</description>\n  <constraints>\n    <constraint>Preserve the original task and all requirements.</constraint>\n    <constraint>Do not invent new task requirements.</constraint>\n    <constraint>You may reorganise structure, headings, tags, and formatting.</constraint>\n  </constraints>\n</task>\n```"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Task: Create a Python regex pattern for ISO 8601 timestamp strings with optional timezone offset\n### Requirements\n* Preserve the original task and all requirements\n* Do not invent new task requirements\n* Reorganize structure, headings, tags, and formatting as needed\n\nCreate a Python regex pattern for ISO 8601 timestamp strings with optional timezone offset."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Create a Python regex pattern for ISO 8601 timestamp strings with optional timezone offset.\n\n2. The pattern should match the following formats:\n   - YYYY-MM-DDTHH:MM:SSZ\n   - YYYY-MM-DDTHH:MM:SS+HH:MM [UTC]\n\n3. The pattern should account for the following characters:\n   - Z (UTC)\n   - +HH:MM (timezone offset)\n\n4. Provide a brief explanation of how to use the regex pattern in Python.\n\n5. Include an example usage of the regex pattern in Python code."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "Here's a Python regex pattern for ISO 8601 timestamp strings with optional timezone offset:\n\n```python\nimport re\n\n# Define the regex pattern\npattern = r\"(\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:Z|[\\+\\-]\\d{2}:\\d{2}))?\"\n\n# Example usage:\niso_timestamps = [\n    \"2022-01-01T00:00:00\",\n    \"2022-01-01T12:30:00+02:00\",\n    \"2022-01-01T12:30:00-05:00\"\n]\n\nfor timestamp in iso_timestamps:\n    match = re.match(pattern, timestamp)\n    \n    if match:\n        print(f\"Matched timezone offset: {match.group(1)}\")\n    else:\n        print(f\"No match found for '{timestamp}'\")\n```\n\nThis regex pattern breaks down as follows:\n\n- `(\\d{4}-\\d{2}-\\d{2})`: Matches the year, month, and day in the format `YYYY-MM-DD`.\n- `(T\\d{2}:\\d{2}:\\d{2})`: Matches the time part of the timestamp in the format `HH:MM:SS`.\n- `(?:Z|[\\+\\-]\\d{2}:\\d{2})`: Matches an optional timezone offset. The `Z` character indicates UTC, while `\\+\\-` followed by a two-digit value with a colon separator represents a timezone offset from UTC.\n- `?` Makes the entire pattern non-greedy, so it matches the first occurrence of the timestamp instead of the whole string.\n\nThis regex pattern should work for most ISO 8601 timestamp strings. However, it's always a good idea to test it thoroughly with different inputs and edge cases.",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "**ISO 8601 Timestamp Regex Pattern**\n=====================================\n\n### Overview\n\nThis section provides a Python regex pattern for matching ISO 8601 timestamp strings with optional timezone offset.\n\n### Requirements\n\n* Preserve the original task and all requirements\n* Do not invent new task requirements\n\n### Regex Pattern\n\n```python\nimport re\n\n# Define the regex pattern\niso_timestamp_pattern = r\"^(\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2})(?:\\.(\\d+))?(Z|[-+]\\d{2})?$\"\n\n# Explanation of the regex pattern:\n\n# ^ matches the start of the string\n# (\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}) matches the ISO 8601 timestamp format:\n#   - \\d{4} matches exactly 4 digits (year)\n#   - -\\d{2} matches exactly 2 digits (-) representing month and day\n#   - T separates the date from the time\n#   - \\d{2}:\\d{2}:\\d{2} matches exactly 2 digits for hours, minutes, and seconds\n# (\\.(\\d+))? matches an optional decimal point followed by an optional number of digits (microseconds)\n# (Z|[-+]\\d{2})? matches an optional timezone offset:\n#   - Z represents UTC time zone\n#   - [-+] matches a minus or plus sign\n#   - \\d{2} matches exactly 2 digits representing the timezone offset in hours\n\ndef match_iso_timestamp(timestamp):\n    \"\"\"Match an ISO 8601 timestamp string with optional timezone offset.\"\"\"\n    return bool(re.match(iso_timestamp_pattern, timestamp))\n\n# Example usage:\ntimestamps = [\"2022-07-25T14:30:00\", \"2022-07",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Here is a Python regex pattern that matches ISO 8601 timestamp strings with optional timezone offset:\n\n```python\nimport re\n\n# Regex pattern for ISO 8601 timestamp strings with optional timezone offset\npattern = r\"(\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2})(Z|([+-]\\d{2}:\\d{2}))?\"\n```\n\nExplanation:\n\n- `(\\d{4}-\\d{2}-\\d{2})`: Matches the date part of the timestamp (YYYY-MM-DD) using `\\d` to match digits and `{n,m}` to specify the minimum and maximum number of occurrences.\n- `(T\\d{2}:\\d{2}:\\d{2})`: Matches the time part of the timestamp (HH:MM:SS).\n- `(Z|([+-]\\d{2}:\\d{2}))?`: Matches an optional timezone offset. It matches either 'Z' for UTC or a '+' or '-' followed by two digits and a colon, separated by spaces.\n\nTo use this regex pattern in Python:\n\n```python\nimport re\n\n# Regex pattern for ISO 8601 timestamp strings with optional timezone offset\npattern = r\"(\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2})(Z|([+-]\\d{2}:\\d{2}))?\"\n\ndef match_timestamp(timestamp):\n    # Compile the regex pattern\n    regex = re.compile(pattern)\n    \n    # Match the timestamp against the regex pattern\n    match = regex.match(timestamp)\n    \n    if match:\n        return True, match.group(0)  # Return (True, matched timestamp)\n    else:\n        return False, None\n\n# Example usage:\ntimestamps = [\n    \"2022-01-01T12:00:00Z\",\n    \"2022",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gemini",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "deduplicate a list",
+    "task": "Python one-liner preserving order for list of dicts keyed by 'id'",
+    "family": "code",
+    "baseline_score": 3.0,
+    "praas_score": 4.17,
+    "gain": 1.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "Here are some ways to deduplicate a list:\n\n1. **Using Python**:\n```python\ndef deduplicate(lst):\n    return list(set(lst))\n\n# Example usage:\nmy_list = [1, 2, 2, 3, 4, 4, 5]\ndeduplicated_list = deduplicate(my_list)\nprint(deduplicated_list)  # Output: [1, 2, 3, 4, 5]\n```\n\n2. **Using JavaScript**:\n```javascript\nfunction deduplicate(arr) {\n    return [...new Set(arr)];\n}\n\n// Example usage:\nconst myList = [1, 2, 2, 3, 4, 4, 5];\nconst deduplicatedList = deduplicate(myList);\nconsole.log(deduplicatedList);  // Output: [1, 2, 3, 4, 5]\n```\n\n3. **Using SQL**:\n```sql\nSELECT DISTINCT column_name FROM table_name;\n```\nThis will return only unique values from the specified column.\n\n4. **Using Excel**:\nSelect the entire list, go to \"Data\" > \"Remove Duplicates\", and then select the range of cells containing the data you want to deduplicate.\n\n5. **Using a spreadsheet formula (Google Sheets)**:\n`=UNIQUE(A1:A10)`\n\nThis will return only unique values from the specified range.\n\nNote: These methods may not preserve the original order of elements in",
+    "baseline_judge_score": 3.0,
+    "baseline_judge_rubric": {
+      "completion": 4.0,
+      "compliance": 3.0,
+      "structure": 2.0
+    },
+    "baseline_judge_raw": {
+      "completion": 4,
+      "compliance": 3,
+      "structure": 2
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specific details about the expected input and output formats, which could lead to a solution that does not meet the user's needs.",
+    "analyzer_missing": [
+      "audience",
+      "input_format",
+      "output_format",
+      "length_constraint",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about the expected input format (e.g., \"list of dictionaries with 'id' key\")\n• Specify the desired output format (e.g., \"unique dictionary with preserved order and 'id' key\")",
+    "optimised_prompt": "\"\"\"\ndeduplicate a list of dictionaries with 'id' key, preserving order, and returning a unique dictionary with 'id' key\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n< ClaudePrompt>\n  <Task>deduplicate a list of dictionaries with 'id' key</Task>\n  <Constraints>\n    <Constraint>Preserve order</Constraint>\n    <Constraint>Return a unique dictionary with 'id' key</Constraint>\n  </Constraints>\n</ClaudePrompt>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Task: Deduplicate a List of Dictionaries\n### Requirements:\n* Preserve order\n* Return a unique dictionary with 'id' key\n\nDeduplicate a list of dictionaries with 'id' key, preserving order, and returning a unique dictionary with 'id' key."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Deduplicate a list of dictionaries with 'id' key, preserving order, and returning a unique dictionary with 'id' key.\n\n2. The input should be a list of dictionaries containing an 'id' key.\n\n3. The output should be a new dictionary with the same structure as the input but without duplicate 'id' values.\n\n4. Preserve the original order of the 'id' values in the output.\n\n5. Return the resulting unique dictionary."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "Based on the provided XML, it appears to be a prompt for a task in a machine learning model. The task is to implement a function that takes a list of dictionaries as input and returns a new list of dictionaries with duplicate entries removed based on the 'id' key.\n\nHere's an example implementation in Python:\n\n```python\nimport copy\n\ndef deduplicate_dict_list(dict_list):\n    \"\"\"\n    Removes duplicate entries from a list of dictionaries based on the 'id' key.\n    \n    Args:\n        dict_list (list): A list of dictionaries where each dictionary has an 'id' key.\n    \n    Returns:\n        list: A new list of dictionaries with duplicate entries removed.\n    \"\"\"\n\n    # Create an empty dictionary to store unique dictionaries\n    unique_dicts = {}\n\n    # Iterate over the input list\n    for d in dict_list:\n        # Convert the dictionary to a tuple (since lists are not hashable) and use it as a key\n        key = tuple(d['id'])\n\n        # If the key is not already in the unique_dicts dictionary, add it\n        if key not in unique_dicts:\n            unique_dicts[key] = copy.deepcopy(d)\n\n    # Convert the unique_dicts dictionary back to a list of dictionaries\n    result_list = [copy.deepcopy(unique_dicts[key]) for key in unique_dicts]\n\n    return result_list\n\n# Example usage:\ndict_list = [\n    {'id': 1, 'name': 'John'},\n    {'id': 2, 'name': 'Jane'},\n    {'id': 1, 'name': 'John'},  # Duplicate entry\n    {'id': 3, 'name': 'Bob'}\n]\n\nresult = deduplicate_dict_list(dict_list)\nprint(result)  # Output: [{'id': 1, 'name': 'John'}, {'id': 2, 'name': 'Jane'}, {'id': 3, 'name': 'Bob'}]\n```\n\nThis implementation uses a dictionary to keep",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "import collections\n\ndef deduplicate_dicts(dict_list):\n    \"\"\"\n    Deduplicates a list of dictionaries with 'id' key while preserving order.\n    \n    Args:\n        dict_list (list): A list of dictionaries with 'id' key.\n    \n    Returns:\n        list: A unique dictionary with 'id' key from the input list, preserving order.\n    \"\"\"\n\n    # Create an empty OrderedDict to store unique ids\n    seen = collections.OrderedDict()\n    \n    # Iterate over each dictionary in the input list\n    for dictionary in dict_list:\n        # Get the id of the current dictionary\n        dictionary_id = dictionary['id']\n        \n        # If the id is not already in the OrderedDict, add it\n        if dictionary_id not in seen:\n            seen[dictionary_id] = dictionary\n    \n    # Return a list of unique dictionaries from the OrderedDict\n    return list(seen.values())",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "def deduplicate_dicts(dict_list):\n    \"\"\"\n    Deduplicates a list of dictionaries with 'id' key, preserving order, and returning a unique dictionary with 'id' key.\n    \n    Args:\n        dict_list (list): A list of dictionaries containing an 'id' key.\n        \n    Returns:\n        dict: A new dictionary with the same structure as the input but without duplicate 'id' values.\n    \"\"\"\n    \n    # Create an empty dictionary to store unique ids\n    unique_ids = {}\n    \n    # Iterate over each dictionary in the input list\n    for dictionary in dict_list:\n        # Get the id from the current dictionary\n        id_value = dictionary['id']\n        \n        # Check if the id is not already in the unique_ids dictionary\n        if id_value not in unique_ids:\n            # Add the id to the unique_ids dictionary\n            unique_ids[id_value] = True\n    \n    # Create an empty dictionary to store the result\n    result = {}\n    \n    # Iterate over each dictionary in the input list again\n    for dictionary in dict_list:\n        # Get the id from the current dictionary\n        id_value = dictionary['id']\n        \n        # Check if the id is in the unique_ids dictionary\n        if id_value in unique_ids:\n            # Add the id to the result dictionary\n            result[id_value] = dictionary\n    \n    # Return the resulting unique dictionary\n    return result",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "claude",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "connect to database",
+    "task": "Python SQLite connection with context manager and parameterised queries",
+    "family": "code",
+    "baseline_score": 4.0,
+    "praas_score": 4.17,
+    "gain": 0.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "To connect to a database, you'll need to use a database driver and library that's compatible with your programming language. Here are some examples:\n\n**Python**\n\nYou can use the `sqlite3` module for SQLite databases or the `psycopg2` library for PostgreSQL databases.\n\n```python\nimport sqlite3\nimport psycopg2\n\n# Connect to SQLite database\nconn = sqlite3.connect('example.db')\ncursor = conn.cursor()\n\n# Execute a query\ncursor.execute(\"SELECT * FROM users\")\n\n# Fetch results\nresults = cursor.fetchall()\nfor row in results:\n    print(row)\n\n# Close the connection\nconn.close()\n\n# Connect to PostgreSQL database\nconn = psycopg2.connect(\n    host=\"localhost\",\n    database=\"example\",\n    user=\"username\",\n    password=\"password\"\n)\ncursor = conn.cursor()\n\n# Execute a query\ncursor.execute(\"SELECT * FROM users\")\n\n# Fetch results\nresults = cursor.fetchall()\nfor row in results:\n    print(row)\n\n# Close the connection\nconn.close()\n```\n\n**Java**\n\nYou can use the `java.sql` package for JDBC connections.\n\n```java\nimport java.sql.Connection;\nimport java.sql.DriverManager;\nimport java.sql.ResultSet;\nimport java.sql.SQLException;\nimport java.sql.Statement;\n\npublic class DatabaseConnection {\n    public static void main(String[] args) throws SQLException {\n        // Connect to SQLite database\n        Connection conn = DriverManager.getConnection(\"jdbc:sqlite:example.db\");\n        Statement stmt = conn.createStatement();\n\n        // Execute a query",
+    "baseline_judge_score": 4.0,
+    "baseline_judge_rubric": {
+      "completion": 4.0,
+      "compliance": 5.0,
+      "structure": 3.0
+    },
+    "baseline_judge_raw": {
+      "completion": 4,
+      "compliance": 5,
+      "structure": 3
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specificity in task details and output expectations.",
+    "analyzer_missing": [
+      "audience",
+      "task_specificity",
+      "input_format",
+      "output_format",
+      "length_constraint",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific database type (e.g., SQLite, PostgreSQL)\n• Include desired outcome or result (e.g., retrieve data, perform CRUD operation)\n• Specify programming language (Python) and any required libraries (e.g., sqlite3)\n• Provide more context about the connection (e.g., user authentication, API integration)\n• Clarify expected output format (e.g., JSON, CSV, table structure)",
+    "optimised_prompt": "\"\"\"\nConnect to a SQLite database using Python's sqlite3 library as a context manager for parameterised queries that retrieve data in a structured JSON format.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<task>\n    <description>Connect to a SQLite database using Python's sqlite3 library as a context manager for parameterised queries that retrieve data in a structured JSON format.</description>\n    <constraints>\n        <constraint requirement=\"python\">Python</constraint>\n        <constraint requirement=\"sqlite3\">sqlite3 library</constraint>\n        <constraint requirement=\"contextmanager\">Use a context manager</constraint>\n        <constraint requirement=\"parameterised_queries\">Parameterise queries</constraint>\n        <constraint requirement=\"structured_json\">Return data in structured JSON format</constraint>\n    </constraints>\n</task>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Task: Connect to a SQLite Database using Python's sqlite3 Library\n### Role: Retrieve Data in Structured JSON Format\n\nConnect to a SQLite database using Python's `sqlite3` library as a context manager for parameterised queries that retrieve data in a structured JSON format."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Connect to a SQLite database using Python's sqlite3 library as a context manager for parameterised queries.\n\n2. Ensure that the connection is established with a valid database path.\n\n3. Use the `with` statement to create a context manager for the database connection.\n\n4. Define a function to retrieve data from the database in a structured JSON format.\n\n5. Utilize parameterized queries to prevent SQL injection attacks.\n\n6. Format the retrieved data into a JSON object using Python's built-in `json` module.\n\n7. Return the formatted JSON data as output."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "Here's an example of how you can implement the described task using Python:\n\n```python\nimport sqlite3\nfrom contextlib import contextmanager\nimport json\n\n@contextmanager\ndef connect_to_database(db_name):\n    \"\"\"\n    Connects to a SQLite database using Python's sqlite3 library as a context manager.\n\n    Args:\n        db_name (str): The name of the database file.\n\n    Yields:\n        sqlite3.Connection: A connection object to the SQLite database.\n    \"\"\"\n    conn = None\n    try:\n        conn = sqlite3.connect(db_name)\n        yield conn\n    except sqlite3.Error as e:\n        print(f\"Error connecting to database: {e}\")\n    finally:\n        if conn is not None:\n            conn.close()\n\ndef execute_parameterised_query(conn, query, params):\n    \"\"\"\n    Executes a parameterised query on the given connection.\n\n    Args:\n        conn (sqlite3.Connection): The connection object to the SQLite database.\n        query (str): The SQL query to be executed.\n        params (dict): A dictionary of parameters to be used in the query.\n\n    Returns:\n        list: A list of rows returned by the query.\n    \"\"\"\n    try:\n        cursor = conn.cursor()\n        cursor.execute(query, params)\n        return cursor.fetchall()\n    except sqlite3.Error as e:\n        print(f\"Error executing query: {e}\")\n        return []\n\ndef get_data_from_database(conn):\n    \"\"\"\n    Retrieves data from the database using a parameterised query and returns it in structured JSON format.\n\n    Args:\n        conn (sqlite3.Connection): The connection object to the SQLite database.\n\n    Returns:\n        str: A JSON string representing the retrieved data.\n    \"\"\"\n    try:\n        cursor = conn.cursor()\n        query = \"SELECT * FROM my_table\"\n        params = {}\n        rows = execute_parameterised_query(conn, query, params)\n        return json.dumps(rows)\n    except sqlite3.Error as e:\n        print(f\"Error",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "import sqlite3\nfrom json import dumps, loads\n\nclass Database:\n    def __init__(self, db_name):\n        self.conn = None\n        self.cursor = None\n        self.db_name = db_name\n\n    def connect(self):\n        try:\n            self.conn = sqlite3.connect(self.db_name)\n            self.cursor = self.conn.cursor()\n            return True\n        except sqlite3.Error as e:\n            print(e)\n            return False\n\n    def disconnect(self):\n        if self.conn:\n            self.conn.close()\n\n    def execute_query(self, query, params=None):\n        if not self.conn:\n            raise Exception(\"Database is not connected\")\n\n        if params:\n            try:\n                self.cursor.execute(query, params)\n            except sqlite3.Error as e:\n                print(e)\n\n        else:\n            self.cursor.execute(query)\n\n        return self.cursor.fetchall()\n\n    def fetch_json(self, query, params=None):\n        if not self.conn:\n            raise Exception(\"Database is not connected\")\n\n        if params:\n            try:\n                result = self.execute_query(query, params)\n            except sqlite3.Error as e:\n                print(e)\n                return []\n            else:\n                rows = [dict(zip([desc[0] for desc in self.cursor.description], row)) for row in result]\n                return dumps(rows, indent=4)\n\n        else:\n            try:\n                result = self.execute_query(query)\n            except sqlite3.Error as e:\n                print(e)\n                return []\n\n            rows = [dict(zip([desc[0] for desc in self.cursor.description], row)) for row in result]\n            return dumps(rows, indent=4)\n\n# Usage\nif __name__ == \"__main__\":\n    db_name = \"test.db\"\n    db = Database(db_name)\n\n    if db.connect():\n        # Create a table\n        query = \"\"\"\n            CREATE TABLE users (\n                id INTEGER PRIMARY KEY,\n                name TEXT NOT NULL,\n                age INTEGER NOT NULL\n            )\n        \"\"\"",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Here is an example of how you can achieve this:\n\n```python\nimport sqlite3\nimport json\n\n# Define the database path\nDATABASE_PATH = 'example.db'\n\ndef get_data_from_db(query, params=None):\n    \"\"\"\n    Retrieves data from the SQLite database using a parameterized query.\n\n    Args:\n        query (str): The SQL query to execute.\n        params (dict): A dictionary of parameters to substitute in the query.\n\n    Returns:\n        str: The formatted JSON data retrieved from the database.\n    \"\"\"\n\n    # Establish a connection to the database\n    with sqlite3.connect(DATABASE_PATH) as conn:\n        # Create a cursor object for executing queries\n        cur = conn.cursor()\n\n        # Execute the query using parameterized substitution\n        if params is not None:\n            cur.execute(query, params)\n        else:\n            cur.execute(query)\n\n        # Fetch all rows from the query result\n        rows = cur.fetchall()\n\n    # Format the data into a JSON object\n    json_data = []\n    for row in rows:\n        json_row = {\n            'id': row[0],\n            'name': row[1],\n            'age': row[2]\n        }\n        json_data.append(json_row)\n\n    return json.dumps(json_data, indent=4)\n\n\n# Example usage:\n\n# Define a query to retrieve data from the database\nquery = \"\"\"\n    SELECT id, name, age\n    FROM users\n\"\"\"\n\n# Execute the query with parameters (e.g., user ID)\nparams = {'user_id': 1}\nresult = get_data_from_db(query, params)\n\nprint(result)\n```\n\nThis example demonstrates how you can connect to a SQLite database using Python's `sqlite3` library as a context manager for parameterized queries. It also showcases the importance of using parameterized queries to prevent SQL injection attacks.\n\nThe code defines a function called `get_data_from_db` that takes an SQL query and optional parameters as input. The function establishes a connection",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gpt",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "summarise this paper",
+    "task": "extract research question, method, 3 limitations for a 5-min talk",
+    "family": "analysis",
+    "baseline_score": 2.0,
+    "praas_score": 4.17,
+    "gain": 2.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "I don't see a paper provided. Could you please share the paper you'd like me to summarize? I'll do my best to provide a concise summary of the content.",
+    "baseline_judge_score": 2.0,
+    "baseline_judge_rubric": {
+      "completion": 0.0,
+      "compliance": 4.0,
+      "structure": 2.0
+    },
+    "baseline_judge_raw": {
+      "completion": 0,
+      "compliance": 4,
+      "structure": 2
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specificity regarding the input format and output format.",
+    "analyzer_missing": [
+      "audience",
+      "input_format",
+      "output_format",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about the paper (e.g., title, authors, publication date) to provide context for summarization.\n• Specify the desired output format (e.g., \"short summary\", \"key findings\") to ensure clarity on what is expected.",
+    "optimised_prompt": "\"Summarize a 5-minute talk on extracting research question, method, and three limitations from a recent paper by [authors], published in [publication date] format.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<prompt>\n  <task>Summarize a 5-minute talk</task>\n  <constraints>\n    <requirement format=\"paper\">\n      <requirement extractResearchQuestion>true</requirement>\n      <requirement extractMethod>true</requirement>\n      <requirement extractLimitations>true</requirement>\n    </requirement>\n    <requirement duration>5 minutes</requirement>\n    <requirement publicationDate>\n      <requirement format=\"date\">\n        <requirement includeYear>true</requirement>\n        <requirement includeMonth>true</requirement>\n        <requirement includeDay>true</requirement>\n      </requirement>\n    </requirement>\n  </constraints>\n  <input>\n    <field name=\"authors\">[authors]</field>\n    <field name=\"publicationDate\">[publication date]</field>\n  </input>\n</prompt>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Task: Summarize a Research Paper\n## Role: Summarizer\n## Format: 5-minute talk summary\n\nSummarize a 5-minute talk on extracting research question, method, and three limitations from a recent paper by [authors], published in [publication date] format."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Provide a summary of a 5-minute talk on extracting research question, method, and three limitations from a recent paper by [authors].\n2. The paper should be published in [publication date] format.\n3. Include all required information:\n   - Research question\n   - Method used\n   - Three limitations identified"
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "This is an XML document that defines a prompt for a summarization task. Here's a breakdown of the different elements:\n\n1. `<prompt>`: This is the root element of the XML document, which contains the entire prompt.\n2. `<task>`: This element specifies the task to be performed, which in this case is to summarize a 5-minute talk.\n3. `<constraints>`: This element defines the constraints and requirements for the summarization task.\n4. `requirement`: This is a repeated element that represents different requirements for the summarization task. There are several instances of this element, each with its own set of attributes and child elements.\n5. `format=\"paper\"`: This attribute specifies the format of the requirement. In this case, it's set to \"paper\", which means that the requirement is related to a paper or publication.\n6. `<requirement extractResearchQuestion>true</requirement>`: This element specifies that research questions should be extracted from the text.\n7. Similar elements follow, specifying that method and limitations should also be extracted.\n8. `duration` attribute: This specifies the duration of the summarization task, which is 5 minutes.\n9. `<requirement publicationDate>`: This element defines a requirement related to the publication date of the talk or paper being summarized.\n10. `format=\"date\"`: This attribute specifies that the publication date should be in a date format.\n11. `<requirement includeYear>true</requirement>`, `<requirement includeMonth>true`, and `<requirement includeDay>true>`: These elements specify which parts of the publication date should be included in the summarization.\n12. `<input>`: This element defines the input fields that will be used to provide context for the summarization task.\n13. `<field name=\"authors\">[authors]</field>`: This element specifies a field named \"authors\" that contains the names of the authors.\n14. `<field name=\"publicationDate\">",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "Here is a summary of the talk:\n\n**Title:** Extracting Insights from Recent Research Papers: A Methodological Approach\n\n**Speaker:** [Author's Name]\n\n**Publication Date:** [Publication Date]\n\nToday, we're going to discuss how to extract valuable insights from recent research papers.\n\nThe speaker presented a method for extracting key elements from research papers, including research questions, methods, and limitations. Here's a summary of the talk:\n\n1. **Extracting Research Questions:**\nThe speaker emphasized the importance of identifying the research question or hypothesis at the beginning of a paper. They suggested using techniques such as keyword extraction, topic modeling, and manual review to identify relevant keywords and phrases that indicate the research question.\n\n2. **Extracting Methods:**\nTo extract methodological information, the speaker recommended analyzing the paper's methodology section. This includes identifying the research design, sampling methods, data collection and analysis procedures, and any statistical tests or models used. The speaker also suggested using tools like text mining software to automate this process.\n\n3. **Identifying Limitations:**\nThe speaker highlighted the importance of recognizing limitations in a research paper. They suggested looking for phrases such as \"study limitations\" or \"future directions,\" which often indicate areas where further research is needed. Additionally, they recommended analyzing the paper's results section to identify any limitations in the data or analysis.\n\n**Limitations of the Approach:**\n\nWhile the speaker's method was effective in extracting key elements from recent papers, there are some limitations to consider:\n\n* **Bias towards published research:** The approach may be biased towards published research, as only papers that have undergone rigorous peer review are typically published.\n* **Lack of contextual information:** The extracted information may lack contextual information about the study's setting, population, or other relevant details.\n* **Over-reliance on technology:** The use of text mining software and other technologies may lead to over-reliance on these tools, potentially missing important nuances in the paper.\n\n**Conclusion:",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "I can't provide real-time data or access to specific papers, but I can guide you on how to extract this information from a recent paper.\n\nHere's a general outline of how to summarize a 5-minute talk on extracting research questions, methods, and limitations from a recent paper:\n\n**Step 1: Find the Paper**\n\n* Search for recent papers (within the last year) on academic databases such as Google Scholar, PubMed, or Scopus.\n* Use keywords related to your field of interest to find relevant papers.\n\n**Step 2: Identify the Research Question**\n\n* Read the abstract and introduction sections of the paper to understand the research question.\n* Look for phrases that describe the problem or gap in knowledge that the study aims to address.\n\n**Step 3: Determine the Method Used**\n\n* Review the methods section of the paper to understand the approach used to answer the research question.\n* Identify the type of study (e.g., experimental, observational, survey) and any relevant statistical analysis.\n\n**Step 4: Identify Three Limitations**\n\n* Read the discussion section of the paper to identify potential limitations of the study.\n* Look for phrases that indicate challenges or constraints faced during the study.\n\nHere's an example of how you could summarize a 5-minute talk on extracting research questions, methods, and limitations from a recent paper:\n\n**Paper:** \"The Effect of Social Media on Mental Health in Young Adults\" (2022)\n\n**Research Question:** How does social media use affect mental health in young adults?\n\n**Method:** The study used a mixed-methods approach, combining both qualitative and quantitative data. The researchers conducted surveys with 500 young adults and analyzed the responses using statistical software.\n\n**Limitations:**\n\n1. **Sample Bias:** The study only included participants who were active on social media, which may not be representative of the entire population of young adults.\n2. **Correlation vs. Causation:** The study found a correlation between social media use and mental health",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gpt",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "analyse this data",
+    "task": "identify three statistically meaningful trends in monthly sales CSV",
+    "family": "analysis",
+    "baseline_score": 4.0,
+    "praas_score": 4.17,
+    "gain": 0.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "You haven't provided any data for me to analyze. Please provide the data you'd like me to examine, and I'll be happy to assist you with an analysis.",
+    "baseline_judge_score": 4.0,
+    "baseline_judge_rubric": {
+      "completion": 4.0,
+      "compliance": 5.0,
+      "structure": 3.0
+    },
+    "baseline_judge_raw": {
+      "completion": 4,
+      "compliance": 5,
+      "structure": 3
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specific details about the input data format and output requirements.",
+    "analyzer_missing": [
+      "role",
+      "audience",
+      "input_format",
+      "output_format",
+      "length_constraint",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Specify the format of the input data (e.g., \"monthly sales CSV file\")\n• Clearly state the desired output format (e.g., \"a brief summary of statistically meaningful trends\")",
+    "optimised_prompt": "Analyze a monthly sales CSV file to identify three statistically meaningful trends.",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<task>\n  <description>Analyze a monthly sales CSV file</description>\n  <constraints>\n    <requirement>\n      <name>Identify three statistically meaningful trends</name>\n      <type>output format</type>\n    </requirement>\n  </constraints>\n</task>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Analyze Monthly Sales CSV File\n## Task Description\nAnalyze a monthly sales CSV file to identify three statistically meaningful trends.\n\n## Requirements\n- Identify statistically meaningful trends in the data\n- Report on the identified trends"
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Analyze a monthly sales CSV file to identify three statistically meaningful trends.\n\n2. Requirements:\n   1. The input data should be in a comma-separated values (CSV) format.\n   2. The CSV file should contain at least two months of sales data.\n   3. Statistical significance should be determined using a p-value threshold of less than 0.05.\n\n3. Steps to achieve the task:\n   1. Load the monthly sales CSV file into a suitable programming language or library (e.g., pandas in Python).\n   2. Clean and preprocess the data by handling missing values, converting date formats, and removing any unnecessary columns.\n   3. Perform statistical analysis using techniques such as linear regression, trend analysis, or time series decomposition to identify trends.\n   4. Calculate p-values for each identified trend to determine statistical significance.\n   5. Filter out non-significant trends based on the specified p-value threshold.\n   6. Present the three statistically meaningful trends in a clear and concise manner, including visualizations and summary statistics as necessary."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "This appears to be an XML document representing a task. Here's a breakdown of its structure and content:\n\n1. `<?xml version=\"1.0\" encoding=\"UTF-8\"?>`: This is the XML declaration, which indicates that this file is an XML document and provides information about the character encoding used.\n\n2. `<task>`: This is the root element of the task, representing a single task or project.\n\n3. `<description>Analyze a monthly sales CSV file</description>`: This element provides a brief description of what needs to be done for this task. In this case, it's about analyzing a monthly sales CSV file.\n\n4. `<constraints>`: This element contains constraints or requirements that need to be met while performing the task. These constraints can include things like output formats, input requirements, and so on.\n\n5. `<requirement>`: This is an individual requirement within the constraints. In this case, it's about identifying three statistically meaningful trends in the output of the analysis.\n\n6. `<name>Identify three statistically meaningful trends</name>`: This element provides a name for the specific requirement being referenced.\n\n7. `<type>output format</type>`: This element specifies that the requirement is related to an output format, indicating that the identified trends should be presented in a certain way.\n\nIn summary, this task involves analyzing a monthly sales CSV file and identifying three statistically meaningful trends in the output. The requirements for presenting these trends are not explicitly stated, but it's implied that they need to be formatted according to some standard or convention.",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "import pandas as pd\nimport numpy as np\nfrom scipy.stats import ttest_ind\nimport matplotlib.pyplot as plt\n\n# Load the dataset\ndef load_data(file_path):\n    try:\n        data = pd.read_csv(file_path)\n        return data\n    except Exception as e:\n        print(\"Error occurred while loading data: \", str(e))\n\n# Function to calculate mean and standard deviation for two groups\ndef calculate_means(data, group1, group2):\n    try:\n        mean1 = np.mean(data[group1])\n        std1 = np.std(data[group1])\n        mean2 = np.mean(data[group2])\n        std2 = np.std(data[group2])\n        \n        print(f\"Mean of {group1}: {mean1}, Standard Deviation: {std1}\")\n        print(f\"Mean of {group2}: {mean2}, Standard Deviation: {std2}\")\n\n    except Exception as e:\n        print(\"Error occurred while calculating means: \", str(e))\n\n# Function to identify statistically meaningful trends\ndef identify_trends(data):\n    try:\n        # Identify trend 1: Is there a significant difference in sales between months?\n        month1 = data['Month'].unique()[0]\n        month2 = data['Month'].unique()[1]\n\n        t_stat, p_val = ttest_ind(data[data['Month'] == month1]['Sales'], data[data['Month'] == month2]['Sales'])\n        \n        if p_val < 0.05:\n            print(f\"Significant difference in sales between {month1} and {month2}\")\n        else:\n            print(f\"No significant difference in sales between {month1} and {month2}\")\n\n        # Identify trend 2: Is there a significant correlation between sales and month?\n        corr = data['Sales'].corr(data['Month'])\n        \n        if abs(corr) > 0.7:\n            print(\"Significant positive correlation between sales and month\")\n        else:\n            print",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Here's an example of how you can achieve this task using Python with pandas and matplotlib libraries.\n\n```python\n# Import required libraries\nimport pandas as pd\nimport numpy as np\nfrom scipy.stats import ttest_ind\nimport matplotlib.pyplot as plt\n\ndef analyze_monthly_sales(csv_file):\n    # Load the monthly sales CSV file into a DataFrame\n    try:\n        df = pd.read_csv(csv_file)\n    except FileNotFoundError:\n        print(\"The CSV file was not found.\")\n        return None\n    \n    # Check if the CSV file contains at least two months of sales data\n    if len(df.columns) < 2:\n        print(\"The CSV file should contain at least two months of sales data.\")\n        return None\n\n    # Convert date column to datetime format\n    df['date'] = pd.to_datetime(df['date'])\n\n    # Set the date as the index\n    df.set_index('date', inplace=True)\n\n    # Calculate monthly averages\n    df_monthly_avg = df.rolling(window=12).mean()\n\n    # Perform linear regression for each month's average sales data\n    for col in df_monthly_avg.columns:\n        x = np.arange(len(df_monthly_avg))\n        y = df_monthly_avg[col]\n        \n        # Calculate p-value for the slope of the regression line\n        slope, intercept, r_value, p_value, std_err = np.polyfit(x, y, 1)\n        \n        # Print results\n        print(f\"Month: {col}\")\n        print(f\"Slope (slope): {slope:.2f}, Intercept (intercept): {intercept:.2f}\")\n        print(f\"P-value: {p_value:.4f}\\n\")\n\n    # Filter out non-significant trends based on the specified p-value threshold\n    significant_trends = []\n    for col in df_monthly_avg.columns:\n        if p_value < 0.05:\n            significant_trends.append(col)\n    \n    return df_month",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      }
+    ],
+    "winner": "gpt",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "compare two options",
+    "task": "pros/cons of React vs Vue for a solo developer 6-month MVP",
+    "family": "analysis",
+    "baseline_score": 3.0,
+    "praas_score": 4.17,
+    "gain": 1.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "I'd be happy to help compare two options. However, I need more information about the specific options you'd like me to compare.\n\nCould you please provide some context and details about the two options you're considering? For example:\n\n* What are the two options?\n* What are their characteristics or features?\n* What are your goals or priorities when making a decision between these options?\n\nOnce I have this information, I can help facilitate a comparison of the two options and highlight their pros and cons.",
+    "baseline_judge_score": 3.0,
+    "baseline_judge_rubric": {
+      "completion": 4.0,
+      "compliance": 3.0,
+      "structure": 2.0
+    },
+    "baseline_judge_raw": {
+      "completion": 4,
+      "compliance": 3,
+      "structure": 2
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks specificity in its task requirements and output format.",
+    "analyzer_missing": [
+      "audience",
+      "task_specificity",
+      "input_format",
+      "output_format",
+      "length_constraint",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about the comparison (e.g., \"React vs Vue for building a solo developer's 6-month MVP\")\n• Specify the desired output format (e.g., \"a concise pros/cons table\" or \"a brief summary in 2-3 bullet points\")",
+    "optimised_prompt": "\"Compare the pros and cons of React vs Vue for building a solo developer's 6-month MVP, including a concise pros/cons table.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<task>\n    <title>Compare React vs Vue for solo developer's 6-month MVP</title>\n    <description>\n        Provide a concise pros/cons table comparing React and Vue for building a solo developer's 6-month MVP.\n    </description>\n    <constraints>\n        <constraint type=\"length\">1000-1500 characters</constraint>\n        <constraint type=\"formatting\">table format with clear headings</constraint>\n    </constraints>\n</task>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Task: Comparison of React vs Vue for Solo Developer's MVP\n### Role: Provide a concise pros/cons table for building a solo developer's 6-month MVP.\n\nCompare the pros and cons of React vs Vue for building a solo developer's 6-month MVP, including a concise pros/cons table."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Compare the pros and cons of React vs Vue for building a solo developer's 6-month MVP.\n\n2. Provide a concise pros/cons table summarizing the key differences between React and Vue.\n\n3. Include at least three points in each section (pros and cons) to provide a comprehensive comparison.\n\n4. Use clear and concise language throughout the response, avoiding technical jargon whenever possible.\n\n5. Organize the content into an easily readable format, such as a table or bullet points."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "Based on the provided XML task, I will create a concise pros and cons table comparing React and Vue for building a solo developer's 6-month MVP.\n\n**Comparison Table: React vs Vue for Solo Developer's 6-Month MVP**\n\n| **Feature** | **React** | **Vue** |\n| --- | --- | --- |\n| **Learning Curve** | Steeper, but widely adopted, so many resources available | Easier to learn, especially for JavaScript developers familiar with Angular or Ember |\n| **Community Support** | Large and established community, with many libraries and tools | Growing community, with a focus on simplicity and ease of use |\n| **Ecosystem** | Wide range of third-party libraries and tools, including Redux and Webpack | Strong focus on simplicity, with a growing ecosystem of tools and libraries |\n| **Performance** | Optimized for performance, with built-in support for server-side rendering | Also optimized for performance, with a focus on ease of use and flexibility |\n| **MVP Timeframe** | Can be completed within 6 months with a solo developer, but may require more time for complex features | Can also be completed within 6 months, with a focus on rapid prototyping and iteration |\n\nThis table provides a concise summary of the key differences between React and Vue, highlighting their respective strengths and weaknesses. It should meet the requirements outlined in the task constraints.\n\n**Additional Tips:**\n\n* Consider adding a \"Ease of Use\" column to highlight the relative ease of use for each framework.\n* You may also want to include additional features or considerations that are specific to solo developers, such as learning curve, tooling, and community support.\n* Make sure to keep the table concise and easy to read, using clear headings and formatting to make it accessible to a wide audience.\n\nLet me know if you'd like me to revise anything!",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "**Comparison of React vs Vue for Solo Developer's MVP**\n\nWhen it comes to choosing between React and Vue for a solo developer's 6-month MVP, there are several factors to consider. Here's a concise pros and cons table to help you make an informed decision:\n\n| **Feature** | **React** | **Vue** |\n| --- | --- | --- |\n| **Learning Curve** | Steeper (JSX, Hooks) | Easier (Template-based) |\n| **Community Support** | Large, established community | Growing, but still significant |\n| **Ecosystem** | Rich set of libraries and tools | Increasingly robust with Vue.js Core |\n| **Performance** | Optimized for server-side rendering | Good performance out-of-the-box |\n| **State Management** | React Context API or Redux | Vuex (official) or Pinia (popular alternative) |\n| **Size/Weight** | Larger bundle size | Smaller bundle size |\n| **Personal Preference** | Popular choice among enterprise developers | Favored by smaller teams and startups |\n\nBased on this table, here are some key takeaways for a solo developer's 6-month MVP:\n\n* If you're already familiar with JavaScript and JSX, React might be the better choice.\n* If you prefer a more straightforward learning curve and template-based syntax, Vue could be the way to go.\n* Consider the size of your project and the performance requirements. If you need optimization for server-side rendering or high-performance rendering, React might be a better fit.\n* For state management, both libraries have robust options, but Vuex is officially supported by Vue.\n\nUltimately, the choice between React and Vue depends on your personal preferences, skillset, and project requirements. Both frameworks are capable of producing high-quality applications, and choosing one over the other shouldn't be a difficult decision for a solo developer's MVP.",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "**React vs Vue: A Comparison for Solo Developers**\n\nAs a solo developer, choosing the right JavaScript framework for your 6-month MVP (Minimum Viable Product) project is crucial. In this comparison, we'll explore the pros and cons of React and Vue to help you make an informed decision.\n\n**Pros and Cons Table: React vs Vue**\n\n| **Feature** | **React** | **Vue** |\n| --- | --- | --- |\n| **Learning Curve** | Steeper | Easier |\n| **Community Support** | Large, established community | Growing but smaller than React's |\n| **Performance** | Excellent, optimized for web applications | Good, but may not match React's performance |\n| **Ecosystem** | Large ecosystem with many libraries and tools | Smaller ecosystem, but growing rapidly |\n| **State Management** | Complex, requires external libraries (e.g., Redux) | Built-in state management features |\n| **Server-Side Rendering** | Supports SSR, but can be complex to set up | Native support for SSR |\n\n**React Pros:**\n\n1.  **Large community and ecosystem**: With over 13 million GitHub stars, React has an enormous community of developers who contribute to its growth and provide extensive resources.\n2.  **High-performance optimization**: React's virtual DOM and optimized rendering make it a top choice for complex web applications.\n3.  **Extensive library support**: A wide range of libraries and tools, such as Redux, MobX, and Webpack, are available to help with state management, routing, and other tasks.\n\n**React Cons:**\n\n1.  **Steeper learning curve**: React's unique concepts, such as components and the virtual DOM, can be challenging for new developers to grasp.\n2.  **Complex state management**: Managing application state in React requires external libraries or custom implementation, which can add complexity.\n3.  **Server-side rendering setup**: While React supports SSR, setting it up can be complex and",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gpt",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "explain this concept",
+    "task": "explain RAFT consensus to a junior engineer in 150 words",
+    "family": "analysis",
+    "baseline_score": 3.0,
+    "praas_score": 4.17,
+    "gain": 1.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "I'd be happy to help you understand the concept, but I don't see a specific concept mentioned. Could you please provide more context or clarify which concept you would like me to explain?",
+    "baseline_judge_score": 3.0,
+    "baseline_judge_rubric": {
+      "completion": 2.0,
+      "compliance": 4.0,
+      "structure": 3.0
+    },
+    "baseline_judge_raw": {
+      "completion": 2,
+      "compliance": 4,
+      "structure": 3
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks clarity on who the explainer's role is, which could lead to confusion in understanding the concept.",
+    "analyzer_missing": [
+      "role",
+      "audience",
+      "input_format",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about the target audience (junior engineer) and desired outcome (150 words explanation)\n• Clarify the explainer's role or position (e.g., \"explain RAFT consensus to a junior engineer\")\n• Provide more context or background information on the concept (RAFT consensus)",
+    "optimised_prompt": "\"Explain RAFT consensus, a widely used consensus algorithm in distributed systems, to a junior engineer in 150 words, assuming they have basic knowledge of networking and computer science, and providing a clear overview of its key components, benefits, and potential challenges.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<prompt>\n  <task>Explain RAFT consensus</task>\n  <constraints>\n    <constraint>150 words</constraint>\n    <constraint>Assume basic knowledge of networking and computer science</constraint>\n    <constraint>Provide a clear overview of its key components, benefits, and potential challenges</constraint>\n  </constraints>\n</prompt>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Explain RAFT Consensus Algorithm\n## Task Description\nExplain RAFT consensus, a widely used consensus algorithm in distributed systems, to a junior engineer in 150 words.\n\n## Assumptions\nAssume the junior engineer has basic knowledge of networking and computer science.\n\n## Requirements\nProvide a clear overview of its key components, benefits, and potential challenges."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Explain RAFT consensus, a widely used consensus algorithm in distributed systems, to a junior engineer in 150 words.\n\n2. Assume the junior engineer has basic knowledge of networking and computer science.\n\n3. Provide a clear overview of RAFT's key components, including:\n   - Leader election\n   - Log replication\n   - Heartbeats\n\n4. Outline RAFT's benefits, such as:\n   - High availability\n   - Fault tolerance\n   - Scalability\n\n5. Discuss potential challenges associated with implementing RAFT consensus, including:\n   - Network partitions\n   - Node failures\n   - Leader election timeouts"
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "**RAFT Consensus Algorithm: An Overview**\n\nThe RAFT (Remote Election Fast) consensus algorithm is a distributed consensus protocol designed for modern computer systems. It was developed by Diego Ongaro and Pranav Gokhale in 2013.\n\n**Key Components of RAFT**\n\n1. **Leader Election**: The algorithm selects a leader node from the cluster, which is responsible for maintaining the consistency of the system.\n2. **Log Replication**: The leader maintains a log of all operations performed on the system, and replicates this log to other nodes in the cluster.\n3. **Heartbeats**: Each node sends periodic heartbeats to the leader, indicating its availability and readiness to participate in the consensus process.\n\n**Benefits of RAFT**\n\n1. **High Availability**: RAFT ensures that the system remains available even in the presence of failures or network partitions.\n2. **Improved Performance**: By eliminating the need for a centralized coordinator, RAFT allows for more efficient communication between nodes.\n3. **Fault Tolerance**: The algorithm can recover from node failures and network partitions, ensuring that the system remains operational.\n\n**Potential Challenges**\n\n1. **Complexity**: Implementing RAFT requires careful consideration of its complex consensus protocol.\n2. **Network Requirements**: The algorithm relies on fast and reliable communication between nodes, which can be challenging in certain network environments.\n3. **Scalability**: As the cluster size increases, the leader election process can become more complex.\n\n**Conclusion**\n\nRAFT is a robust and efficient consensus algorithm that ensures high availability and improved performance in modern computer systems. While it presents some challenges, its benefits make it an attractive choice for applications requiring fault-tolerant and scalable distributed systems.",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "RAFT (Raft) Consensus Algorithm is a widely used algorithm for achieving agreement among nodes in a distributed system. It's designed to be simple, fault-tolerant, and highly available.\n\nKey Components:\n\n*   **Leader Election**: Each node in the cluster runs an instance of the RAFT protocol.\n*   **Log Replication**: The leader replicates its log entries to other nodes in the cluster.\n*   **Heartbeats**: Nodes send periodic \"heartbeats\" to announce their status and ensure the leader remains alive.\n\nBenefits:\n\n*   **High Availability**: RAFT ensures that the system remains available even if some nodes fail or are removed from the cluster.\n*   **Fault Tolerance**: The algorithm can recover from failures by electing a new leader.\n*   **Simplicity**: RAFT is relatively easy to implement and maintain.\n\nPotential Challenges:\n\n*   **Leader Election Complexity**: Electing a new leader can be challenging, especially in large clusters.\n*   **Network Latency**: High network latency can lead to delays in replication and heartbeat messages.\n*   **Security**: RAFT assumes that nodes trust each other; malicious behavior can compromise the system.",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "**RAFT Consensus Algorithm Overview**\n\nAs a junior engineer, you're likely familiar with the basics of distributed systems and networking. RAFT (Remote Election Fast) is a widely used consensus algorithm that ensures consistency across multiple nodes in a system.\n\n**Key Components:**\n\n1. **Leader Election:** Each node in the cluster runs an election to determine which node becomes the leader. The leader is responsible for managing the log, replicating it to other nodes, and ensuring the system's consistency.\n2. **Log Replication:** The leader maintains a log of all operations performed by the system. This log is replicated to other nodes in the cluster, ensuring that everyone has access to the same information.\n3. **Heartbeats:** Nodes periodically send \"heartbeats\" to each other, indicating their presence and readiness to participate in the consensus process.\n\n**Benefits:**\n\n1. High Availability: RAFT ensures that the system remains operational even if some nodes fail or are disconnected from the network.\n2. Fault Tolerance: The algorithm can recover from node failures and ensure that the system continues to function correctly.\n3. Scalability: RAFT allows for easy addition of new nodes to the cluster, making it a scalable solution.\n\n**Potential Challenges:**\n\n1. **Network Partitions:** If two or more nodes are disconnected from each other, they may not be able to communicate effectively, leading to inconsistencies in the system.\n2. **Node Failures:** If a node fails, the leader election process must be triggered to elect a new leader, which can lead to temporary inconsistencies in the system.\n3. **Leader Election Timeouts:** If the leader election process takes too long, it may lead to a situation where multiple nodes are elected as leaders, causing conflicts and inconsistencies in the system.\n\nBy understanding these components, benefits, and challenges, you'll be better equipped to implement RAFT consensus in your distributed systems projects.",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gemini",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "review my argument",
+    "task": "critique 'if X then Y; Y happened; therefore X' — identify fallacy",
+    "family": "analysis",
+    "baseline_score": 2.333,
+    "praas_score": 4.17,
+    "gain": 1.837,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "I'd be happy to help review your argument. However, I don't see an argument provided in the text you've given me. Could you please share your argument with me? I'll do my best to provide a constructive and neutral review of it.",
+    "baseline_judge_score": 2.333,
+    "baseline_judge_rubric": {
+      "completion": 4.0,
+      "compliance": 2.0,
+      "structure": 1.0
+    },
+    "baseline_judge_raw": {
+      "completion": 4,
+      "compliance": 2,
+      "structure": 1
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The biggest weakness of this prompt is that it lacks task specificity and clarity.",
+    "analyzer_missing": [
+      "audience",
+      "task_specificity",
+      "input_format",
+      "length_constraint",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about the argument to be reviewed, such as its topic or context.\n• Clarify what kind of critique is required (e.g., logical fallacy, rhetorical device).\n• Provide more information about the structure or format of the argument.",
+    "optimised_prompt": "\"Review a formal argument in the form 'if X then Y; Y happened; therefore X' that makes use of the fallacy of affirming the consequent, specifically within the context of a debate on climate change policy.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<argument-review>\n  <task>\n    Review a formal argument in the form 'if X then Y; Y happened; therefore X' that makes use of the fallacy of affirming the consequent, specifically within the context of a debate on climate change policy.\n  </task>\n  <constraints>\n    <requirement>Preserve the original task and all requirements.</requirement>\n    <requirement>Do not invent new task requirements.</requirement>\n  </constraints>\n</argument-review>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Task: Formal Argument Review\n# Role: Analyze a formal argument for logical fallacy\n# Context: Climate Change Policy Debate\n\nReview a formal argument in the form 'if X then Y; Y happened; therefore X' that makes use of the fallacy of affirming the consequent, specifically within the context of a debate on climate change policy."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Review a formal argument in the form 'if X then Y; Y happened; therefore X' that makes use of the fallacy of affirming the consequent.\n\n2. Specifically, focus on arguments within the context of a debate on climate change policy.\n\n3. Identify instances where the fallacy of affirming the consequent is applied.\n\n4. Analyze how this fallacy affects the validity and strength of the argument.\n\n5. Provide an explanation for why the use of this fallacy in climate change policy debates is problematic."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "To address this argument review, I will provide a critical analysis of a formal argument that employs the fallacy of affirming the consequent in the context of climate change policy.\n\n**Argument Example:**\n\n\"If we implement stricter carbon emissions regulations, then greenhouse gas levels will decrease; however, despite our efforts, global temperatures continue to rise. Therefore, we should abandon our efforts to reduce carbon emissions and focus on other issues.\"\n\n**Fallacy Identification:**\nThe argument commits the fallacy of affirming the consequent by assuming that because reducing carbon emissions leads to a decrease in greenhouse gas levels (consequent), it is therefore necessary to implement stricter regulations (premise). However, this conclusion ignores the fact that rising global temperatures are not necessarily caused solely by reduced carbon emissions. Other factors, such as deforestation, land-use changes, and natural variability, may also contribute to temperature increases.\n\n**Critical Analysis:**\n\n1. The argument assumes a causal relationship between reducing carbon emissions and decreasing greenhouse gas levels, which is not necessarily true.\n2. It ignores the possibility that other factors, unrelated to carbon emissions, are driving global temperature increases.\n3. By affirming the consequent, the argument fails to consider alternative explanations for the observed temperature rise.\n\n**Conclusion:**\nThis argument employs a flawed logical structure, relying on an unjustified assumption about the causal relationship between reducing carbon emissions and decreasing greenhouse gas levels. A more rigorous analysis would require considering multiple factors contributing to global temperature increases and evaluating evidence from various sources before drawing conclusions about the effectiveness of climate change policy interventions.\n\n**Recommendations:**\n\n1. Consider alternative explanations for observed temperature rises, such as natural variability or other human activities.\n2. Evaluate evidence from multiple sources, including scientific research, observations, and modeling studies.\n3. Develop a more nuanced understanding of the complex relationships between carbon emissions, greenhouse gas levels, and global temperatures.\n\nBy acknowledging these limitations and considering alternative perspectives, we can develop more robust climate change policy approaches that account for the",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "Let's review a formal argument that commits the fallacy of affirming the consequent within the context of a climate change policy debate.\n\nArgument:\n\n\"If we do not implement immediate and drastic measures to reduce greenhouse gas emissions, then global temperatures will continue to rise; but global temperatures have continued to rise despite our best efforts to reduce emissions. Therefore, if we do not take drastic action now, it must be because we are doing everything possible to curb emissions.\"\n\nIn this argument, the speaker is trying to justify inaction on climate change policy by appealing to their conclusion (that no drastic action is needed). However, they are committing the fallacy of affirming the consequent.\n\nThe argument can be broken down as follows:\n\n1. If we do not implement immediate and drastic measures to reduce greenhouse gas emissions, then global temperatures will continue to rise.\n2. Global temperatures have continued to rise despite our best efforts to reduce emissions.\n3. Therefore, if we do not take drastic action now, it must be because we are doing everything possible to curb emissions.\n\nThe problem is that the argument assumes that rising global temperatures necessarily means that no drastic action was taken to reduce emissions (affirming the consequent). However, this assumption is not supported by the evidence. There could be many other reasons for the continued rise in global temperatures, such as natural fluctuations or other human activities that are not being addressed.\n\nA more logical conclusion would be:\n\n\"If we do not implement immediate and drastic measures to reduce greenhouse gas emissions, then global temperatures will continue to rise.\"\n\"But global temperatures have continued to rise despite our best efforts to reduce emissions. This suggests that our current approach is not sufficient to address the issue.\"\n\nIn this revised argument, the speaker acknowledges that their initial assumption (that no drastic action was taken) may not be true, and instead suggests that further action is needed to address the problem of rising global temperatures.\n\nBy recognizing the fallacy of affirming the consequent, we can see that the original argument",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "The fallacy of affirming the consequent occurs when someone assumes that if a certain condition (X) leads to a consequence (Y), then X must be true, simply because Y has occurred. This argument form is often used in debates on climate change policy, where proponents of certain policies may argue as follows:\n\n\"If we implement stricter emissions regulations, carbon emissions will decrease; and since carbon emissions have decreased, therefore stricter emissions regulations are necessary.\"\n\nIn this example, the fallacy of affirming the consequent is applied by assuming that a decrease in carbon emissions (Y) is sufficient evidence to conclude that stricter emissions regulations (X) were implemented. However, there could be other factors contributing to the decrease in carbon emissions, such as changes in energy consumption patterns or technological advancements.\n\nThe use of this fallacy in climate change policy debates can have several negative consequences:\n\n1. Overemphasis on immediate symptoms: By focusing solely on short-term reductions in emissions, policymakers may overlook more complex and nuanced issues that require longer-term solutions.\n2. Misattribution of cause and effect: Assuming that a decrease in emissions is directly caused by stricter regulations ignores the potential role of other factors, such as economic or technological changes.\n3. Lack of consideration for unintended consequences: The fallacy can lead to overlooking potential unintended consequences of implementing stricter regulations, such as increased costs for businesses or reduced economic growth.\n4. Weakening of critical thinking: The use of this fallacy in climate change policy debates can undermine the development of critical thinking skills among policymakers and the public, as it creates a false narrative that simplistic causal relationships exist between policies and outcomes.\n\nIn conclusion, the fallacy of affirming the consequent is a problematic argument form in climate change policy debates. By ignoring the complexity of cause-and-effect relationships and focusing on immediate symptoms, proponents of certain policies can create misleading narratives that obscure more nuanced solutions to the problem of climate change.",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "claude",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "forecast a trend",
+    "task": "three plausible 2-year outcomes for cloud GPU prices",
+    "family": "analysis",
+    "baseline_score": 3.0,
+    "praas_score": 4.17,
+    "gain": 1.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "Based on current data and trends, I'll forecast a potential trend in the field of artificial intelligence (AI) and machine learning (ML).\n\n**Trend Forecast:**\n\nBy 2025, we can expect to see a significant shift towards **Explainable AI (XAI)** as a major trend in the development and deployment of AI systems. XAI refers to the ability to provide transparent, interpretable, and accountable explanations for AI-driven decisions.\n\n**Reasons for this forecast:**\n\n1. **Growing concerns about bias and fairness**: As AI becomes increasingly pervasive in various industries, there is growing concern about the potential for biases and unfairness in AI decision-making. XAI can help address these concerns by providing insights into how AI systems arrive at their conclusions.\n2. **Increasing regulatory scrutiny**: Governments and regulatory bodies are starting to take notice of AI's impact on society, leading to increased scrutiny and calls for greater transparency and accountability in AI development and deployment.\n3. **Advances in explainability techniques**: Researchers have made significant progress in developing explainability techniques, such as model interpretability, feature attribution, and attention mechanisms, which can help provide insights into how AI systems work.\n4. **Growing demand for trust and credibility**: As AI becomes more ubiquitous, there is a growing need for trust and credibility in AI-driven decision-making. XAI can help build trust by providing transparent explanations for AI decisions.\n\n**Potential implications:**\n\n1. **Improved decision-making**: By providing insights into",
+    "baseline_judge_score": 3.0,
+    "baseline_judge_rubric": {
+      "completion": 2.0,
+      "compliance": 4.0,
+      "structure": 3.0
+    },
+    "baseline_judge_raw": {
+      "completion": 2,
+      "compliance": 4,
+      "structure": 3
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The biggest weakness of this prompt is that it lacks sufficient detail about the task and expected outcome.",
+    "analyzer_missing": [
+      "audience",
+      "task_specificity",
+      "input_format",
+      "output_format",
+      "length_constraint",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about the data source or market context for cloud GPU prices (e.g., \"based on historical trends from AWS, Google Cloud, and Microsoft Azure\")\n• Specify the desired level of granularity for the 2-year outcomes (e.g., \"high-level forecasts\" or \"detailed projections with 10% confidence intervals\")\n• Clarify whether the task is focused on predicting price increases or decreases\n• Consider adding any additional constraints or assumptions that should be taken into account when forecasting cloud GPU prices",
+    "optimised_prompt": "\"Forecast three high-level, 2-year outcomes for cloud GPU prices based on historical trends from AWS, Google Cloud, and Microsoft Azure, considering potential price increases or decreases.\"",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<task>\n  <description>Forecast three high-level, 2-year outcomes for cloud GPU prices</description>\n  <constraints>\n    <constraint>\n      <name>historical_data</name>\n      <description>Consider historical trends from AWS, Google Cloud, and Microsoft Azure</description>\n    </constraint>\n    <constraint>\n      <name>price_trend</name>\n      <description>Consider potential price increases or decreases</description>\n    </constraint>\n  </constraints>\n</task>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Forecasting Cloud GPU Prices\n## Task Description\nForecast three high-level, 2-year outcomes for cloud GPU prices based on historical trends from AWS, Google Cloud, and Microsoft Azure.\n\n### Requirements\nConsider potential price increases or decreases. Provide a comprehensive analysis of the forecasted trends.\n\n### Input Data\n- Historical data from:\n  - AWS\n  - Google Cloud\n  - Microsoft Azure\n\n### Output Format\nHigh-level, 2-year forecasts for cloud GPU prices."
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Provide a forecast of three high-level, 2-year outcomes for cloud GPU prices based on historical trends from:\n   - AWS\n   - Google Cloud\n   - Microsoft Azure\n\n2. Consider potential price increases or decreases when forecasting the outcomes.\n\n3. Use historical data to inform your predictions and ensure accuracy."
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "This appears to be an XML file representing a task with specific requirements. Here's a breakdown of the elements and their possible interpretations:\n\n1. `<xml version=\"1.0\" encoding=\"UTF-8\">`: This is the standard header for an XML document, indicating that it follows the UTF-8 character encoding.\n\n2. `<task>`: This element represents the main task or objective.\n\n3. `<description>Forecast three high-level, 2-year outcomes for cloud GPU prices</description>`: This element provides a brief description of the task at hand.\n\n4. `<constraints>`: This element contains constraints that must be considered when completing the task.\n\n5. `<constraint>...</constraint>`: These elements represent individual constraints within the `constraints` group.\n\n   - `<name>historical_data</name>` and `<description>Consider historical trends from AWS, Google Cloud, and Microsoft Azure</description>`: This constraint is related to considering historical data from major cloud providers when forecasting prices.\n   \n   - `<name>price_trend</name>` and `<description>Consider potential price increases or decreases</description>`: This constraint focuses on the potential direction of price changes.\n\nBased on this structure, it seems that the task involves forecasting future prices for cloud GPUs by considering historical trends from major cloud providers and anticipating potential price movements. The output should be three high-level outcomes that span a 2-year horizon.",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "import pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import train_test_split \nfrom sklearn.linear_model import LinearRegression\nfrom statsmodels.tsa.seasonal import seasonal_decompose\nfrom statsmodels.tsa.stattools import adfuller\n\n# Load historical data from AWS, Google Cloud, and Microsoft Azure\naws_data = pd.read_csv('aws_gpu_prices.csv')\ngoogle_cloud_data = pd.read_csv('google_cloud_gpu_prices.csv')\nmicrosoft_azure_data = pd.read_csv('microsoft_azure_gpu_prices.csv')\n\n# Merge the data into a single DataFrame\ndata = pd.concat([aws_data, google_cloud_data, microsoft_azure_data])\n\n# Convert the date column to datetime format\ndata['date'] = pd.to_datetime(data['date'])\n\n# Set the 'date' column as the index\ndata.set_index('date', inplace=True)\n\n# Plot the historical price data\nimport matplotlib.pyplot as plt\n\nplt.figure(figsize=(10,6))\nfor i in ['AWS', 'Google Cloud', 'Microsoft Azure']:\n    plt.plot(data[i], label=i)\nplt.title(\"Historical Cloud GPU Prices\")\nplt.xlabel(\"Date\")\nplt.ylabel(\"Price (USD)\")\nplt.legend()\nplt.show()\n\n# Perform seasonal decomposition\ndecomposition = seasonal_decompose(data['AWS'], model='additive')\ntrend = decomposition.trend\nseasonal = decomposition.seasonal\n\n# Plot the trend and seasonal components\nplt.figure(figsize=(10,6))\nplt.subplot(411)\nplt.plot(data['AWS'], label='Original')\nplt.legend(loc='best')\n\nplt.subplot(412)\nplt.plot(trend, label='Trend')\nplt.legend(loc='best')\n\nplt.subplot(413)\nplt.plot(seasonal,label='Seasonality')\nplt.legend(loc='best')\n\nplt.subplot(414)\nplt.plot(data['AWS']-trend-seasonal,label='Residuals')\nplt.legend(loc='best')\nplt.tight_layout()\nplt.show()\n\n# Perform",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "Based on historical trends from AWS, Google Cloud, and Microsoft Azure, I'll provide a forecast of three high-level, 2-year outcomes for cloud GPU prices. Please note that these forecasts are based on past performance and may not reflect future market conditions.\n\n**Assumptions:**\n\n1. Historical data is used to identify patterns and trends in GPU price fluctuations.\n2. The forecast assumes that the current market conditions will continue, with some adjustments for potential changes in demand, supply, and competition.\n3. The forecast takes into account the historical pricing strategies of each cloud provider.\n\n**Historical Data:**\n\n1. AWS:\n\t* Average annual increase in GPU prices: 20-25%\n\t* Peak season (holiday season): +30-40% increase\n\t* Off-season (January-March): -10-20% decrease\n2. Google Cloud:\n\t* Average annual increase in GPU prices: 15-20%\n\t* Peak season (holiday season): +25-35% increase\n\t* Off-season (January-March): -5-15% decrease\n3. Microsoft Azure:\n\t* Average annual increase in GPU",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      }
+    ],
+    "winner": "gemini",
+    "praas_judge_suspicious": false
+  },
+  {
+    "prompt": "recommend a decision",
+    "task": "framework for remote vs hybrid work for a team of 8 engineers",
+    "family": "analysis",
+    "baseline_score": 3.0,
+    "praas_score": 4.17,
+    "gain": 1.17,
+    "cross_model_sd": 0.345,
+    "judge_suspicious": false,
+    "baseline_output": "I'll provide you with some general guidance on making decisions. Here are some steps to consider:\n\n1. **Define the problem or goal**: Clearly identify what you want to achieve or solve.\n2. **Gather information**: Collect relevant data, facts, and insights related to your decision.\n3. **Weigh the pros and cons**: Make a list of advantages and disadvantages for each option.\n4. **Consider multiple perspectives**: Think about different viewpoints and potential consequences.\n5. **Evaluate your values and priorities**: Align your decision with your personal values, goals, and priorities.\n6. **Trust your instincts**: Listen to your gut feeling and intuition.\n7. **Seek advice**: Consult with trusted friends, family, or experts if needed.\n\nSome popular decision-making frameworks include:\n\n1. **Pros and Cons List**: A simple list of advantages and disadvantages for each option.\n2. **Decision Matrix**: A table that compares options based on specific criteria.\n3. **Six Thinking Hats**: A method that encourages considering different perspectives (white hat: facts, black hat: caution, red hat: emotions, yellow hat: benefits, green hat: creativity, blue hat: process).\n4. **Pareto Analysis**: Focus on the most important factors and eliminate less significant ones.\n\nRemember, there's no one-size-fits-all approach to decision-making. The best framework for you will depend on your personal preferences, situation, and goals.\n\nWhich type of decision are you facing? I can help you",
+    "baseline_judge_score": 3.0,
+    "baseline_judge_rubric": {
+      "completion": 2.0,
+      "compliance": 4.0,
+      "structure": 3.0
+    },
+    "baseline_judge_raw": {
+      "completion": 2,
+      "compliance": 4,
+      "structure": 3
+    },
+    "baseline_judge_parse_failed": false,
+    "analyzer_summary": "The prompt lacks detail about the task and its requirements, making it difficult to provide a well-informed decision.",
+    "analyzer_missing": [
+      "audience",
+      "task_specificity",
+      "input_format",
+      "output_format",
+      "tone_constraint"
+    ],
+    "optimiser_gradient": "• Add specific details about the framework options (e.g., \"remote-only\", \"hybrid with 50% remote\", etc.)\n• Include information about team preferences or goals (e.g., \"team members prioritize work-life balance\" or \"aim to increase productivity\")\n• Specify any constraints or considerations (e.g., \"budget limitations\" or \"need for face-to-face collaboration\")",
+    "optimised_prompt": "recommend a framework for remote vs hybrid work that balances team preferences, such as prioritizing work-life balance, while considering budget limitations and aiming to increase productivity for a team of 8 engineers.",
+    "variants": [
+      {
+        "family": "claude",
+        "prompt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<framework-recommendation>\n  <task>\n    Recommend a framework for remote vs hybrid work that balances team preferences,\n    such as prioritizing work-life balance, while considering budget limitations and\n    aiming to increase productivity for a team of 8 engineers.\n  </task>\n  <constraints>\n    <constraint type=\"budget\">\n      Consider budget limitations when recommending a framework.\n    </constraint>\n    <constraint type=\"productivity\">\n      Aim to increase productivity for the team.\n    </constraint>\n    <constraint type=\"team-size\">\n      The team consists of 8 engineers.\n    </constraint>\n    <constraint type=\"work-life-balance\">\n      Prioritize work-life balance when recommending a framework.\n    </constraint>\n  </constraints>\n</framework-recommendation>"
+      },
+      {
+        "family": "gpt",
+        "prompt": "# Remote vs Hybrid Work Framework\n## Task Description\nRecommend a framework for remote vs hybrid work that balances team preferences, such as prioritizing work-life balance, while considering budget limitations and aiming to increase productivity for a team of 8 engineers.\n\n### Requirements\n- Balance team preferences (work-life balance)\n- Consider budget limitations\n- Increase productivity"
+      },
+      {
+        "family": "gemini",
+        "prompt": "1. Develop a framework for remote vs hybrid work that balances team preferences, considering budget limitations and aiming to increase productivity for an 8-engineer team.\n\n2. Prioritize factors influencing team preferences:\n   - Work-life balance\n   - Team satisfaction\n   - Productivity goals\n\n3. Assess budget limitations:\n   - Identify areas where costs can be optimized or reduced\n   - Explore cost-effective solutions for remote work setup and equipment\n\n4. Increase productivity through hybrid work arrangements:\n   - Implement flexible scheduling to accommodate team needs\n   - Encourage collaboration and communication among team members\n   - Monitor and adjust work schedules as needed to maintain productivity"
+      }
+    ],
+    "variant_scores": [
+      {
+        "family": "claude",
+        "output": "This is an XML document that outlines a framework recommendation for remote vs hybrid work. Here's a breakdown of the structure and content:\n\n**Root Element:**\nThe root element is `<framework-recommendation>`, which indicates that this document provides a framework for making recommendations.\n\n**Task Element:**\nThe `<task>` element contains a single text node with a brief description of the task, which is to recommend a framework for remote vs hybrid work.\n\n**Constraints Element:**\nThe `<constraints>` element contains five child elements, each representing a constraint related to the recommendation. These constraints are:\n\n1. `budget`: Consider budget limitations when recommending a framework.\n2. `productivity`: Aim to increase productivity for the team.\n3. `team-size`: The team consists of 8 engineers.\n4. `work-life-balance`: Prioritize work-life balance when recommending a framework.\n\nThese constraints provide guidelines for the recommendation process, ensuring that the chosen framework meets specific requirements and priorities.\n\n**No Specific Framework Recommendation:**\nUnfortunately, this XML document does not provide a specific framework recommendation. It seems to be more of a template or a starting point for the recommendation process. The actual recommendations would depend on the analysis of the constraints and the evaluation of various frameworks against those criteria.\n\nTo make this document more complete, you could add additional information, such as:\n\n* A list of potential frameworks that meet the constraints\n* An evaluation of each framework based on the constraints\n* A recommended framework and justification for its selection\n\nHere's an updated version of the XML document with some sample framework recommendations:\n```xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<framework-recommendation>\n  <task>\n    Recommend a framework for remote vs hybrid work that balances team preferences,\n    such as prioritizing work-life balance, while considering budget limitations and\n    aiming to increase productivity for a team of 8 engineers.\n  </task>\n  <constraints>\n    <constraint type=\"budget",
+        "score": 3.83,
+        "rubric": {
+          "completion": 4.0,
+          "compliance": 3.5,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gpt",
+        "output": "# Remote vs Hybrid Work Framework\n\n## Overview\n\nIn today's fast-paced and technology-driven world, the traditional office setup is no longer the only viable option for teams. With the rise of remote work, many organizations are exploring hybrid work models that strike a balance between team preferences, budget limitations, and productivity.\n\n## Recommended Framework: Flexible Hybrid Model with Remote Options\n\n### Benefits:\n\n1.  **Work-Life Balance**: Allows employees to choose when and where they work, promoting better work-life balance and increased job satisfaction.\n2.  **Budget Limitations**: Reduces overhead costs associated with maintaining a traditional office space, while still providing opportunities for in-person collaboration and team-building.\n3.  **Productivity**: Encourages flexibility and autonomy, allowing employees to work in an environment that suits their individual needs and preferences.\n\n### Framework Components:\n\n1.  **Core Hours**: Set aside specific hours each week (e.g., Monday-Friday, 10am-4pm) for in-person team meetings and collaboration.\n2.  **Remote Days**: Designate specific days or weeks where employees work remotely from home or a designated workspace.\n3.  **Flexible Scheduling**: Allow employees to choose their own schedules within the core hours, as long as they are available during core hours for meetings and collaboration.\n4.  **In-Office Spaces**: Provide dedicated spaces for in-person collaboration, team-building, and networking.\n\n### Implementation Strategy:\n\n1.  **Pilot Program**: Launch a pilot program with a small group of employees to test the framework's effectiveness and gather feedback.\n2.  **Communication**: Regularly communicate the framework's benefits and expectations to all employees, ensuring transparency and understanding.\n3.  **Monitoring and Evaluation**: Continuously monitor productivity, work-life balance, and employee satisfaction to make adjustments as needed.\n\n### Example Schedule:\n\n| Day | Core Hours | Remote Days |\n| --- | --- | --- |\n| Monday | 10am-4pm | Remote |",
+        "score": 4.17,
+        "rubric": {
+          "completion": 4.5,
+          "compliance": 4.0,
+          "structure": 4.0
+        }
+      },
+      {
+        "family": "gemini",
+        "output": "**Framework for Remote vs Hybrid Work**\n\nTo balance team preferences, considering budget limitations, and increase productivity, the following framework can be implemented:\n\n**I. Assessment and Prioritization**\n\n1. Conduct a survey or town hall meeting to gather feedback from the 8-engineer team on their work-life balance, satisfaction, and productivity goals.\n2. Identify key factors influencing team preferences, including:\n\t* Work-life balance\n\t* Team satisfaction\n\t* Productivity goals\n3. Assess budget limitations by analyzing current expenses related to remote work setup, equipment, and travel.\n\n**II. Budget Optimization**\n\n1. **Remote Work Setup:**\n\t* Optimize existing infrastructure (e.g., invest in video conferencing software instead of new hardware).\n\t* Consider cloud-based solutions for data storage and collaboration tools.\n\t* Implement a bring-your-own-device (BYOD) policy to reduce equipment costs.\n2. **Equipment and Software:**\n\t* Explore cost-effective alternatives for remote work setup, such as refurbished or used equipment.\n\t* Utilize open-source software and free trials to minimize licensing fees.\n3. **Travel and Training:**\n\t* Reduce travel frequency by implementing virtual training sessions and online workshops.\n\t* Invest in online courses and tutorials to enhance skills development.\n\n**III. Hybrid Work Arrangements**\n\n1. **Flexible Scheduling:**\n\t* Implement flexible work hours (e.g., 9-to-3 with optional remote work days).\n\t* Encourage team members to adjust their schedules as needed.\n2. **Collaboration and Communication:**\n\t* Establish regular virtual meetings (e.g., daily stand-ups, weekly team meetings).\n\t* Use collaboration tools (e.g., Slack, Trello) to facilitate communication and task management.\n3. **Productivity Monitoring:**\n\t* Set clear productivity goals and key performance indicators (KPIs).\n\t* Regularly monitor team member productivity using tools like time tracking software.\n\n**IV.",
+        "score": 3.33,
+        "rubric": {
+          "completion": 3.5,
+          "compliance": 3.0,
+          "structure": 3.5
+        }
+      }
+    ],
+    "winner": "gpt",
+    "praas_judge_suspicious": false
+  }
+]

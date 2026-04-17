@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prompt-as-a-Service (PraaS)</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Prompt-as-a-Service</h1>
+    <p class="tagline">
+      Engineering prompts as cloud-native software artifacts ·
+      <a href="/docs" target="_blank">OpenAPI&nbsp;docs</a> ·
+      <a href="#" id="stats-link">FPDB stats</a>
+    </p>
+  </header>
+
+  <main>
+    <section class="input-card">
+      <label for="prompt">Your prompt</label>
+      <textarea id="prompt" rows="3" placeholder="write a story"></textarea>
+
+      <label for="task">Task description (your true intent)</label>
+      <textarea
+        id="task"
+        rows="2"
+        placeholder="a bedtime story for an 8-year-old that teaches sharing"
+      ></textarea>
+
+      <div class="row">
+        <button id="run" class="primary">Run full pipeline</button>
+        <button id="run-analyze">Analyze only</button>
+        <span id="status" class="status"></span>
+      </div>
+
+      <p class="service-note" id="backend-note">
+        Backend status will appear after you run the pipeline.
+      </p>
+    </section>
+
+    <section id="results" class="results hidden">
+      <article class="stage">
+        <h2>1. Analyzer</h2>
+        <p class="service-note">Diagnoses the prompt on 7 dimensions.</p>
+        <div id="analyze-out"></div>
+      </article>
+
+      <article class="stage">
+        <h2>2. Optimizer <small>(TextGrad-style)</small></h2>
+        <p class="service-note">Produces a textual gradient, then applies it.</p>
+        <div id="optimize-out"></div>
+      </article>
+
+      <article class="stage">
+        <h2>3. Multi-Model Adapter</h2>
+        <p class="service-note">
+          Produces model-family-aware variants for Claude / GPT / Gemini styles.
+        </p>
+        <div id="adapt-out"></div>
+      </article>
+
+      <article class="stage">
+        <h2>4. Evaluator</h2>
+        <p class="service-note">
+          Runs each variant and ranks outputs via LLM-as-judge with position-bias mitigation.
+        </p>
+        <div id="evaluate-out"></div>
+      </article>
+    </section>
+
+    <section id="fpdb-panel" class="fpdb hidden">
+      <h2>Failure Pattern Database</h2>
+      <p class="service-note">
+        Aggregated, anonymised — the dual-utility side channel.
+      </p>
+      <div id="fpdb-out"></div>
+    </section>
+  </main>
+
+  <footer>
+    PraaS · Cloud Computing Project (Topic 8: X-as-a-Service) · NTU 2026
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

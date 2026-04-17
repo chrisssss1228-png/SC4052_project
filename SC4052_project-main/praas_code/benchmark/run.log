@@ -1,0 +1,79 @@
+[praas.inference] backend: ollama=True(llama3.2) hf=False strict=True
+============================================================
+PraaS benchmark — backend configuration
+============================================================
+{
+  "use_ollama": true,
+  "ollama_model": "llama3.2",
+  "ollama_endpoint": "http://localhost:11434/api/generate",
+  "ollama_timeout": 300.0,
+  "hf_model": "HuggingFaceH4/zephyr-7b-beta",
+  "hf_token_configured": false,
+  "hf_timeout": 90.0,
+  "strict_mode": true
+}
+STRICT mode: True
+
+Benchmark size: n=21
+============================================================
+
+[creative] base=3.00  praas=4.17  gain=+1.17  sd=0.34  'write a story'
+[creative] base=3.00  praas=4.17  gain=+1.17  sd=0.34  'write a poem'
+[creative] base=0.00  praas=4.17  gain=+4.17  sd=0.34  'write me a song'
+[creative] base=2.33  praas=4.17  gain=+1.84  sd=0.34  'tell a joke'
+[creative] base=0.00  praas=4.17  gain=+4.17  sd=0.34  'describe a place'
+[creative] base=3.00  praas=4.17  gain=+1.17  sd=0.34  'write some dialogue'
+[creative] base=3.00  praas=4.17  gain=+1.17  sd=0.34  'draft a speech'
+[    code] base=3.00  praas=4.17  gain=+1.17  sd=0.34  'write python to scrape a website'
+[    code] base=2.67  praas=4.17  gain=+1.50  sd=0.34  'build a REST API'
+[    code] base=2.33  praas=4.17  gain=+1.84  sd=0.34  'parse JSON'
+[    code] base=4.67  praas=5.00  gain=+0.33  sd=0.86  'write a sort function'
+[    code] base=3.00  praas=4.17  gain=+1.17  sd=0.34  'make a regex'
+[    code] base=3.00  praas=4.17  gain=+1.17  sd=0.34  'deduplicate a list'
+[    code] base=4.00  praas=4.17  gain=+0.17  sd=0.34  'connect to database'
+[analysis] base=2.00  praas=4.17  gain=+2.17  sd=0.34  'summarise this paper'
+[analysis] base=4.00  praas=4.17  gain=+0.17  sd=0.34  'analyse this data'
+[analysis] base=3.00  praas=4.17  gain=+1.17  sd=0.34  'compare two options'
+[analysis] base=3.00  praas=4.17  gain=+1.17  sd=0.34  'explain this concept'
+[analysis] base=2.33  praas=4.17  gain=+1.84  sd=0.34  'review my argument'
+[analysis] base=3.00  praas=4.17  gain=+1.17  sd=0.34  'forecast a trend'
+[analysis] base=3.00  praas=4.17  gain=+1.17  sd=0.34  'recommend a decision'
+
+=== SUMMARY ===
+{
+  "n": 21,
+  "mean_baseline": 2.73,
+  "mean_praas": 4.21,
+  "mean_gain": 1.479,
+  "mean_cross_model_sd": 0.37,
+  "n_judge_suspicious": 0,
+  "by_family": {
+    "creative": {
+      "n": 7,
+      "mean_baseline": 2.048,
+      "mean_praas": 4.17,
+      "mean_gain": 2.122,
+      "mean_cross_model_sd": 0.345,
+      "n_judge_suspicious": 0
+    },
+    "code": {
+      "n": 7,
+      "mean_baseline": 3.238,
+      "mean_praas": 4.289,
+      "mean_gain": 1.05,
+      "mean_cross_model_sd": 0.419,
+      "n_judge_suspicious": 0
+    },
+    "analysis": {
+      "n": 7,
+      "mean_baseline": 2.905,
+      "mean_praas": 4.17,
+      "mean_gain": 1.265,
+      "mean_cross_model_sd": 0.345,
+      "n_judge_suspicious": 0
+    }
+  }
+}
+
+Wrote benchmark/results.json
+Wrote benchmark/evidence.json (21 evidence records)

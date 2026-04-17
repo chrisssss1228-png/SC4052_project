@@ -1,0 +1,248 @@
+{
+  "summary": {
+    "n": 21,
+    "mean_baseline": 2.73,
+    "mean_praas": 4.21,
+    "mean_gain": 1.479,
+    "mean_cross_model_sd": 0.37,
+    "n_judge_suspicious": 0,
+    "by_family": {
+      "creative": {
+        "n": 7,
+        "mean_baseline": 2.048,
+        "mean_praas": 4.17,
+        "mean_gain": 2.122,
+        "mean_cross_model_sd": 0.345,
+        "n_judge_suspicious": 0
+      },
+      "code": {
+        "n": 7,
+        "mean_baseline": 3.238,
+        "mean_praas": 4.289,
+        "mean_gain": 1.05,
+        "mean_cross_model_sd": 0.419,
+        "n_judge_suspicious": 0
+      },
+      "analysis": {
+        "n": 7,
+        "mean_baseline": 2.905,
+        "mean_praas": 4.17,
+        "mean_gain": 1.265,
+        "mean_cross_model_sd": 0.345,
+        "n_judge_suspicious": 0
+      }
+    }
+  },
+  "per_prompt": [
+    {
+      "prompt": "write a story",
+      "task": "bedtime story for an 8-year-old about sharing",
+      "family": "creative",
+      "baseline_score": 3.0,
+      "praas_score": 4.17,
+      "gain": 1.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "write a poem",
+      "task": "four-line poem about rain for a birthday card",
+      "family": "creative",
+      "baseline_score": 3.0,
+      "praas_score": 4.17,
+      "gain": 1.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "write me a song",
+      "task": "silly 30-second song for a toddler about brushing teeth",
+      "family": "creative",
+      "baseline_score": 0.0,
+      "praas_score": 4.17,
+      "gain": 4.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "tell a joke",
+      "task": "short office-appropriate joke about Monday mornings",
+      "family": "creative",
+      "baseline_score": 2.333,
+      "praas_score": 4.17,
+      "gain": 1.837,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "describe a place",
+      "task": "100-word description of a bustling food market for a travel blog",
+      "family": "creative",
+      "baseline_score": 0.0,
+      "praas_score": 4.17,
+      "gain": 4.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "write some dialogue",
+      "task": "5-line conversation between a grumpy dragon and a polite child",
+      "family": "creative",
+      "baseline_score": 3.0,
+      "praas_score": 4.17,
+      "gain": 1.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "draft a speech",
+      "task": "2-minute graduation speech with a warm tone and one personal anecdote",
+      "family": "creative",
+      "baseline_score": 3.0,
+      "praas_score": 4.17,
+      "gain": 1.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "write python to scrape a website",
+      "task": "extract article titles and dates, respect robots.txt, output CSV",
+      "family": "code",
+      "baseline_score": 3.0,
+      "praas_score": 4.17,
+      "gain": 1.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "build a REST API",
+      "task": "FastAPI /items endpoint with GET/POST/DELETE, in-memory storage",
+      "family": "code",
+      "baseline_score": 2.667,
+      "praas_score": 4.17,
+      "gain": 1.503,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "parse JSON",
+      "task": "Python function to flatten nested JSON into dotted-key dict",
+      "family": "code",
+      "baseline_score": 2.333,
+      "praas_score": 4.17,
+      "gain": 1.837,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "write a sort function",
+      "task": "in-place quicksort with three-way partitioning in Python",
+      "family": "code",
+      "baseline_score": 4.667,
+      "praas_score": 5.0,
+      "gain": 0.333,
+      "cross_model_sd": 0.863,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "make a regex",
+      "task": "Python regex for ISO 8601 timestamps with optional timezone",
+      "family": "code",
+      "baseline_score": 3.0,
+      "praas_score": 4.17,
+      "gain": 1.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "deduplicate a list",
+      "task": "Python one-liner preserving order for list of dicts keyed by 'id'",
+      "family": "code",
+      "baseline_score": 3.0,
+      "praas_score": 4.17,
+      "gain": 1.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "connect to database",
+      "task": "Python SQLite connection with context manager and parameterised queries",
+      "family": "code",
+      "baseline_score": 4.0,
+      "praas_score": 4.17,
+      "gain": 0.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "summarise this paper",
+      "task": "extract research question, method, 3 limitations for a 5-min talk",
+      "family": "analysis",
+      "baseline_score": 2.0,
+      "praas_score": 4.17,
+      "gain": 2.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "analyse this data",
+      "task": "identify three statistically meaningful trends in monthly sales CSV",
+      "family": "analysis",
+      "baseline_score": 4.0,
+      "praas_score": 4.17,
+      "gain": 0.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "compare two options",
+      "task": "pros/cons of React vs Vue for a solo developer 6-month MVP",
+      "family": "analysis",
+      "baseline_score": 3.0,
+      "praas_score": 4.17,
+      "gain": 1.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "explain this concept",
+      "task": "explain RAFT consensus to a junior engineer in 150 words",
+      "family": "analysis",
+      "baseline_score": 3.0,
+      "praas_score": 4.17,
+      "gain": 1.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "review my argument",
+      "task": "critique 'if X then Y; Y happened; therefore X' — identify fallacy",
+      "family": "analysis",
+      "baseline_score": 2.333,
+      "praas_score": 4.17,
+      "gain": 1.837,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "forecast a trend",
+      "task": "three plausible 2-year outcomes for cloud GPU prices",
+      "family": "analysis",
+      "baseline_score": 3.0,
+      "praas_score": 4.17,
+      "gain": 1.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    },
+    {
+      "prompt": "recommend a decision",
+      "task": "framework for remote vs hybrid work for a team of 8 engineers",
+      "family": "analysis",
+      "baseline_score": 3.0,
+      "praas_score": 4.17,
+      "gain": 1.17,
+      "cross_model_sd": 0.345,
+      "judge_suspicious": false
+    }
+  ]
+}
